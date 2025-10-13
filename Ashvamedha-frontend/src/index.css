@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Erica+One&family=Gasoek+One&family=Nosifer&family=Poetsen+One&family=Poller+One&family=Racing+Sans+One&family=Rowdies:wght@300;400;700&family=Rubik+Wet+Paint&family=Trade+Winds&family=Yatra+One&family=Yeseva+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Signika+Negative&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-weight:400;
+    /* font-family: 'Signika Negative', sans-serif; */
+    font-family: 'rowdies' ;
+}
+::-webkit-scrollbar {
+    display: none;
+}
+
+html {
+    scroll-behavior: smooth;
+  }
+
+:root {
+    --color-primary: #ff3d02;
+    --color-secondary:  #ff440a;
+    --color-tertiary:  #fe4b14;
+    --color-quaternary:  #ff5926;
+    --color-quinary: #fe6537;
+    /*
+    --color-primary: #5192ED;
+    --color-secondary: #69A1F0;
+    --color-tertiary: #7EAEF2;
+    --color-quaternary: #90BAF5;
+    --color-quinary: #A2C4F5;
+    */
+  }
