@@ -1,5 +1,6 @@
-export const server = "http://localhost:8000"
+// export const server = "http://localhost:8000"
 // export const server = "https://ashvamedha-fjrh.onrender.com";
+export const server = "https://ashvamedha-25.onrender.com";
 
 export const collegeList = [
   { name: "aiims", logo : "https://res.cloudinary.com/backend-project-chai-aur-code/image/upload/v1730469753/ashvamedha/Colleges/ikhdak21qfdliitzoetj.png"},
