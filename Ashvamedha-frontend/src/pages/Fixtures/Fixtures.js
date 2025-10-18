@@ -23,7 +23,7 @@ function Fixtures() {
     <div>
         <Navbar/>
         <div className='fixtures'>
-        {fixtures?.[day()][params.sportname]?.length ?<>
+        {fixtures?.[day()]?.[params.sportname]?.length ?<>
           <h1>{ params.sportname.toUpperCase()} FIXTURES</h1>
             {fixtures[day()][params.sportname].map(( item, index) => {
               if(type === 1) { return <FixtureCard1 key={index} match={item}/>}
