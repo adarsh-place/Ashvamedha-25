@@ -22,7 +22,7 @@ app.use(cookieParser());
 dbConnect();
 if (process.env.NODE_ENV == "productions") {
   app.use((req, res, next) => {
-    const allowedOrigins = ["http://localhost:3000", "https://ashvamedha.in", "https://k8j373m0-3000.inc1.devtunnels.ms"];
+    const allowedOrigins = ["http://localhost:3000", "https://ashvamedha.in","https://ashvamedha-25-y3xf.onrender.com" ,"https://k8j373m0-3000.inc1.devtunnels.ms"];
     const origin = req.headers.origin;
     if (allowedOrigins.includes(origin)) {
       res.setHeader("Access-Control-Allow-Origin", origin);
