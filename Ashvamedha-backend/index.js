@@ -2,6 +2,8 @@ const express = require("express");
 const app = express();
 const dbConnect = require("./dbConnect");
 const dotenv = require("dotenv");
+dotenv.config("./.env");
+
 const adminRouter = require("./routers/adminRouter");
 const collegeRouter = require("./routers/collegeRouter");
 const matchRouter = require("./routers/matchRouter");
@@ -15,7 +17,6 @@ const cron = require("node-cron");
 const http = require("http")
 const https = require("https")
 
-dotenv.config("./.env");
 // middlewares
 app.use(express.json({ limit: "10mb" }));
 app.use(cookieParser());
