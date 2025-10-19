@@ -1,6 +1,38 @@
 @import url('https://fonts.googleapis.com/css2?family=Erica+One&family=Gasoek+One&family=Nosifer&family=Poetsen+One&family=Poller+One&family=Racing+Sans+One&family=Rowdies:wght@300;400;700&family=Rubik+Wet+Paint&family=Trade+Winds&family=Yatra+One&family=Yeseva+One&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Signika+Negative&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.perspective {
+  perspective: 1000px;
+}
+
+.backface-hidden {
+  backface-visibility: hidden;
+}
+
+.transform-style-preserve-3d {
+  transform-style: preserve-3d;
+}
+
+.rotate-y-180 {
+  transform: rotateY(180deg);
+}
+@layer utilities {
+  @keyframes border-glow {
+    0%, 100% {
+      box-shadow: 0 0 15px #ff4500, 0 0 30px #ffae42;
+    }
+    50% {
+      box-shadow: 0 0 25px #ffae42, 0 0 45px #ff4500;
+    }
+  }
+  .animate-border-glow {
+    animation: border-glow 2.5s ease-in-out infinite alternate;
+  }
+}
 
 
 *{
