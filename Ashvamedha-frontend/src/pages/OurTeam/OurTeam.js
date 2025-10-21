@@ -133,7 +133,7 @@ function OurTeam() {
     <>
     <Navbar />
     {/* {!isLoading ?  */}
-      (<div className="OurTeam">
+      (<div className="OurTeam mt-20">
         <h2 className="heading">
           <span className="h1">OUR</span>
           <span className="h2"> TEAM</span>

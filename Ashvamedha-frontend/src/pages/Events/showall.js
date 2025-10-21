@@ -111,7 +111,7 @@ function ShowAllEvents() {
     return (
         <>
             <Navbar />
-            <div className="min-h-screen bg-gradient-radial from-[#001030] via-[#000814] to-[#000814] text-white py-12 px-4">
+            <div className="mt-24 min-h-screen bg-gradient-radial from-[#001030] via-[#000814] to-[#000814] text-white py-12 px-4">
                 <h2 className="text-center text-4xl md:text-5xl font-bold mb-12 uppercase flex justify-center items-center">
                     <span className="text-orange-600 mr-2">ALL</span>
                     <span>EVENTS</span>

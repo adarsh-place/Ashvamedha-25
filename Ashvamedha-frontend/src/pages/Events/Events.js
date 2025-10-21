@@ -128,7 +128,7 @@ function Events() {
     <>
       <Navbar />
 
-<div className="min-h-screen w-full flex flex-col items-center overflow-x-hidden bg-gradient-radial from-[#001030] via-[#000814] to-[#000814]">
+<div className=" mt-24 min-h-screen w-full flex flex-col items-center overflow-x-hidden bg-gradient-radial from-[#001030] via-[#000814] to-[#000814]">
   
 {/* Heading */}
 <h2 className="mt-4 flex justify-center items-center text-4xl md:text-5xl font-bold tracking-wide uppercase text-center md:text-[3.5rem]">

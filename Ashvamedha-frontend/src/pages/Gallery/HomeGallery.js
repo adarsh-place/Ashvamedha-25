@@ -33,7 +33,7 @@ function HomeGallery() {
       {/* Title */}
       <div className="title text-center mt-5" data-aos="fade-up">
         <h1 className="text-5xl sm:text-6xl font-bold mb-6">
-          <span className="text-[#FF6D02]">GLIMP</span>
+          <span className="text-crimson-red">GLIMP</span>
           <span className="text-white">SES</span>
         </h1>
       </div>
@@ -78,7 +78,7 @@ function HomeGallery() {
             />
             <button
               onClick={() => setSelectedImage(null)}
-              className="absolute top-2 right-3 text-white text-3xl font-bold hover:text-[#FF6D02]"
+              className="absolute top-2 right-3 text-white text-3xl font-bold hover:text-crimson-red"
             >
               ×
             </button>

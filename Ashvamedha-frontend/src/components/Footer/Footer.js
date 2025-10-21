@@ -30,7 +30,7 @@ function Footer() {
         {/* Left */}
         <div className="left">
           <h1 className="text-4xl md:text-5xl font-bold mb-2">
-            <span className="text-[#FF6D02]">ASHVA</span>
+            <span className="text-crimson-red">ASHVA</span>
             <span className="text-white">MEDHA</span>
           </h1>
           <h2 className="text-lg opacity-90 mb-6">
