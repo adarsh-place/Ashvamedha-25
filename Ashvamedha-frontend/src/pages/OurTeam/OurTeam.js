@@ -33,100 +33,94 @@ function OurTeam() {
   // }, []);
   const chiefCoordinator = [
     {
-      name: "Abhishek Jakhar",
+      name: "Chakradhar Allu ",
       position: "Chief Coordinator",
       image: "https://res.cloudinary.com/backend-project-chai-aur-code/image/upload/v1729327567/ashvamedha/team/z0wu3a16v1k0wgqeyxt5.jpg",
-      no: "+91 7976512192",
+      no: "+91 96186 58706",
     },
   ];
 
   const teamMembers = [
     {
-      name: "Sanskar Kosare",
+      name: "Vansh Raj Gupta ",
       position: "Publicity ",
       image: "https://res.cloudinary.com/backend-project-chai-aur-code/image/upload/v1728720503/ashvamedha/team/pi1yovzsrbn9xqew5hew.jpg",
-      no: "+91 8208278646",
+      no: "+91 99737 70623",
     },
     {
-      name: "Mayank Raj",
+      name: "Harish patidar ",
       position: "Events ",
       image: "https://res.cloudinary.com/backend-project-chai-aur-code/image/upload/v1728721046/ashvamedha/team/vplukiobhozebm5pio5t.jpg",
-      no: "+91 7709446384",
+      no: "+91 62648 69374 ",
     },
     {
-      name: "Soumyajeet",
+      name: "Srijith burra",
       position: "Sponsorship",
       image : "https://res.cloudinary.com/backend-project-chai-aur-code/image/upload/v1728720503/ashvamedha/team/wvxnpci56fgf6qa2uyik.jpg",
-      no: "+91 9836821118",
+      no: "+91 78159 79633",
     },
     {
-      name: "Adhiraj Dubey",
+      name: "Rohinish Raj",
       position: "Web&D ",
       image: "https://res.cloudinary.com/backend-project-chai-aur-code/image/upload/v1728720505/ashvamedha/team/d6pqqqdexscnkvwnoxps.jpg",
-      no: "+91 9589660889",
+      no: "+91 85216 71402",
     },
     {
-      name: "Tanish",
+      name: "Afzal Muhammed",
       position:"Hospitality",
       image: "https://res.cloudinary.com/backend-project-chai-aur-code/image/upload/v1728720504/ashvamedha/team/itligupcge8v6xtmrbiw.jpg",
-      no: "+91 6350108695",
+      no: "+91 63826 43748",
     },
   ];
   const corehead = [
     {
-      name: "Nishant",
+      name: "Adarsh Chandra",
       position: "Core Head",
       image: "https://res.cloudinary.com/backend-project-chai-aur-code/image/upload/v1728720504/ashvamedha/team/vlycnaazp2qcrygswxya.jpg",
-      no: "+91 8920481815",
+      no: "+91 93026 62809",
     },
     {
-      name: "Shivam",
+      name: "Shreyansh Shashwat",
       position: "Core Head",
       image: "https://res.cloudinary.com/backend-project-chai-aur-code/image/upload/v1728843691/ashvamedha/team/u5rmar3eivphrscjfm8f.jpg",
-      no: "+91 6378287518",
+      no: "+91 91228 93411 ",
     },
     {
-      name: "Nirali",
+      name: "Piyush Kashyap",
       position: "Core Head",
       image: "https://res.cloudinary.com/backend-project-chai-aur-code/image/upload/v1728720504/ashvamedha/team/vvxkkb0qsq2cd6t7vkvx.jpg",
-      no: "+91 6378233277",
+      no: "+91 98278 71224",
     },
     {
-      name: "Ghanshyam",
+      name: "Ayush Mittal ",
       position: "Core Head",
       image: "https://res.cloudinary.com/backend-project-chai-aur-code/image/upload/v1729419882/ashvamedha/team/zpcylfs2qx6vtsnovhur.jpg",
-      no: "+91 8319901135",
+      no: "+91 63676 45929",
     },
     {
-      name: "Thanvi Reddy",
+      name: "Chandan Kumar ",
       position: "Core Head",
       image: "https://res.cloudinary.com/backend-project-chai-aur-code/image/upload/v1728720504/ashvamedha/team/vjmjgjyyxwcdksbuoeyj.jpg",
-      no: "+91 9381811060",
+      no: "+91 83402 65760",
     },
     {
-      name: "Aniket",
+      name: "Arit Gandhi",
       position: "Core Head",
       image: "https://res.cloudinary.com/backend-project-chai-aur-code/image/upload/v1728720505/ashvamedha/team/suzhk8pi17d2a9tng3u0.jpg",
-      no: "+91 9798697313",
+      no: "+91 9353255049",
     },
     {
-      name: "Dingum",
+      name: "Tanuj Kumar Gupta",
       position: "Core Head",
       image:"https://res.cloudinary.com/backend-project-chai-aur-code/image/upload/v1729402896/ashvamedha/team/xg85qegkihg0luh1th9v.jpg",
-      no: "+91 9366471892",
+      no: "+91 9079095706",
     },
     
     {
-      name: "Vipin Kumar",
+      name: "Baman Teja",
       position: "Core Head",
       image: "https://res.cloudinary.com/backend-project-chai-aur-code/image/upload/v1728843690/ashvamedha/team/ide1pqdiut3yacmsnbhk.jpg",
-      no: "+91 7082604643",
-    },
-    {
-      name: "Rohit Mehta",
-      position: "Core Head",
-      image: "https://res.cloudinary.com/backend-project-chai-aur-code/image/upload/v1728720504/ashvamedha/team/zskuba18jbufnnsvjsic.jpg",
-      no: "+91 9119344248",
+      no: "+91 6304640345",
     },
   ];
   return (
