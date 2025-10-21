@@ -7,7 +7,7 @@ import logomashaal4 from '../../assests/ashvamedhaLogo copy 3.png'
 function Loader() {
   return (
     <>
-    <div className='Loaderbox'>
+    <div className='Loaderbox -mt-6'>
       {/* <div className='Loaderinside'> */}
         <div className="imagefader">
           <div><img alt='-' src={logomashaal4} className='loaderlogomashaal' /></div>

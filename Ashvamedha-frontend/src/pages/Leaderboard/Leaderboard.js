@@ -47,7 +47,7 @@ function Leaderboard() {
       {/* <ComingSoon/> */}
     
       {!loading ? (
-        <div className="leaderboard">
+        <div className="leaderboard mt-20 ">
           <div className="heading">
             <h2 className="text">
               <span className="h1">LEADER</span>
