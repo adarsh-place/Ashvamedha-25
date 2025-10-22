@@ -34,7 +34,7 @@ function OurTeam() {
   const chiefCoordinator = [
     {
       name: "Chakradhar Allu ",
-      position: "Chief Coordinator",
+      position: "CHIEF COORDINATOR",
       image: "https://res.cloudinary.com/diu6ioiov/image/upload/v1761076912/IMG_20251019_193409_-_Chakradhar_Allu_r7fjbz.png",
       no: "+91 96186 58706",
     },
@@ -80,7 +80,7 @@ function OurTeam() {
       no: "+91 93026 62809",
     },
     {
-      name: "Shreyansh Shashwat",
+      name: "Shreyansh",
       position: "Core Head",
       image: "https://res.cloudinary.com/diu6ioiov/image/upload/v1761076915/20240911_132434_-_Shreyansh_Shashwat_dwwmsp.jpg",
       no: "+91 91228 93411 ",
@@ -110,7 +110,7 @@ function OurTeam() {
       no: "+91 9353255049",
     },
     {
-      name: "Tanuj Kumar Gupta",
+      name: "Tanuj",
       position: "Core Head",
       image:"https://res.cloudinary.com/diu6ioiov/image/upload/v1761076912/IMG_20250725_184221_-_Tanuj_Kumar_Gupta_iawmd2.jpg",
       no: "+91 9079095706",
@@ -135,6 +135,7 @@ function OurTeam() {
         <div className="team-container">
           <div className="cards">
             {/* Display Chief Coordinator outside the grid */}
+            <div className="section-subheading text-crimson-red pb-6">CHIEF COORDINATORS</div>
             <div className="chief-coordinator">
               {chiefCoordinator.map((member, index) => (
                 <div className="card" key={index}>
@@ -142,27 +143,29 @@ function OurTeam() {
                     <img src={member.image} alt="" />
                   </div>
                   <div className="description">
-                    <p>{member.position}</p>
                     <h3 className="name">{member.name}</h3>
                     <h3>{member.no}</h3>
                   </div>
                 </div>
               ))}
             </div>
+            <h3 className="section-subheading text-crimson-red pt-8">COORDINATORS</h3>
             <div className="coordinator">
               {teamMembers.map((member, index) => (
                 <div className="card" key={index}>
                   <div className="image">
-                    <img src={member.image} alt="" />
+                    <img src={member.image} alt="" class />
                   </div>
                   <div className="description">
-                    <p>{member.position} <br /> Co-ordinator</p>
+                    <p className="num">{member.position} <br /></p>
                     <h3 className="name">{member.name}</h3>
-                    <h3>{member.no}</h3>
+                    <h3 className="num">{member.no}</h3>
                   </div>
                 </div>
               ))}
             </div>
+            {/* Combined heading for Core Heads & Coordinators */}
+            <h3 className="section-subheading text-crimson-red pt-10">CORE HEADS </h3>
             <div className="coreheads">
               {corehead.map((member, index) => (
                 <div className="card" key={index}>
@@ -170,10 +173,8 @@ function OurTeam() {
                     <img src={member.image} alt="" />
                   </div>
                   <div className="description">
-                    <p>{member.position}</p>
-
                     <h3 className="name">{member.name}</h3>
-                    <h3>{member.no}</h3>
+                    <h3 className="num">{member.no}</h3>
                   </div>
                 </div>
               ))}
