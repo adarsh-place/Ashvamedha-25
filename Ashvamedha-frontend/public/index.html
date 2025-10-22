@@ -39,6 +39,38 @@
     }
   </style>
 
+  <!-- <style>
+    body {
+      margin: 0;
+      padding: 0;
+      overflow-x: hidden;
+      background: black; /* fallback color while image loads */
+    }
+
+    /* blurred background layer */
+    body::before {
+      content: "";
+      position: fixed;
+      inset: 0; /* top:0; right:0; bottom:0; left:0 */
+      background-image: url('bg2.png');
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center;
+      background-attachment: fixed;
+      filter: blur(8px) brightness(0.6); /* adjust blur here */
+      transform: scale(1.03); /* avoid visible edges after blur */
+      z-index: -1; /* keep behind app content */
+      will-change: filter;
+    }
+
+    #root {
+      position: relative;
+      z-index: 0;
+      min-height: 100dvh; /* mobile-safe full height */
+      min-height: 100vh;
+    }
+  </style> -->
+
 </head>
 
 <body>

@@ -15,7 +15,7 @@ const CounterUpPage = () => {
       {/* Container now has 'flex-wrap' by default
         and 'md:flex-nowrap' to force one row on medium+ screens
       */}
-      <div className="flex flex-wrap justify-around items-center py-6 border-t-2 border-b-2 border-orange-500 border-b-[rgb(19,125,122)] mx-6 md:mx-0 md:flex-nowrap">
+      <div className="flex flex-wrap justify-around items-center py-6 border-t-2 border-b-2 border-white mx-6 md:mx-0 md:flex-nowrap">
         
         {/* Each item is 'w-1/2' (50% width) on mobile,
           and 'md:flex-1' on medium+ screens

@@ -70,7 +70,7 @@ function Navbar() {
   ];
 
   const linkStyles =
-    "capitalize text-white transition-all duration-300 hover:text-ashva-orange cursor-pointer";
+    "capitalize text-white transition-all duration-300 hover:text-crimson-red cursor-pointer";
   const liStyles = "text-lg font-medium";
 
   return (
