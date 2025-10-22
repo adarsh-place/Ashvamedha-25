@@ -6,6 +6,7 @@ import Footer from "../../components/Footer/Footer.js";
 import Hero from "../../components/Hero/Hero.js";
 import Navbar from "../../components/Navbar/Navbar.js";
 import HomeGallery from "../Gallery/HomeGallery.js";
+import CommunitySection from "../../components/CommunitySection/CommunitySection";
 
 import AOS from "aos";
 import "aos/dist/aos.css";
@@ -26,6 +27,7 @@ function Home() {
       <Hero />
       <AboutUs />
       <HomeGallery />
+      <CommunitySection />
       <Footer />
     </div>
   );

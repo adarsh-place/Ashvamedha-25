@@ -2,6 +2,7 @@ import React, { useEffect } from "react";
 import { useNavigate } from "react-router-dom";
 import AOS from "aos";
 import "aos/dist/aos.css";
+// import logo from "../..//logo.png";
 
 function Hero() {
   const navigate = useNavigate();
@@ -47,17 +48,16 @@ function Hero() {
               data-aos="fade-left"
               data-aos-delay="200"
             >
-              <span className="ashva text-white">ASHVA</span>
-              <span className="medha text-crimson-red">MEDHA</span>
+              <img src="logo.png" ></img>
             </h1>
 
 
             <p
-              className="theme mt-4 text-lg font-normal text-white md:text-2xl"
+              className="theme -mt-2 md:-mt-12 text-lg font-normal text-white md:text-2xl"
               data-aos="fade-up"
               data-aos-delay="400"
             >
-              <span >DREAM</span> <span className="ml-4 mr-4 md:ml-6 md:mr-6" >DARE</span> <span>DOMINATE</span>
+              <span >DREAM</span> <span className="ml-2 mr-2 md:ml-6 md:mr-6" >DARE</span> <span>DOMINATE</span>
             </p>
 
             <p

@@ -94,11 +94,6 @@ function Navbar() {
         </div>
 
         {/* New Typography Logo */}
-        <img
-          src="logo.png"
-          alt="ASHVAMEDHA Typography"
-          className="h-12 w-auto object-contain hidden sm:block" // <-- NEW: Added typography image
-        />
       </div>
       {/* --- END OF MODIFIED LOGO SECTION --- */}
 
@@ -164,7 +159,7 @@ function Navbar() {
           <li className={liStyles}>
             <ActualLink
               target="_blank"
-              to="https://drive.google.com/file/d/1q8wArG5pp0X8n_0Oql9BiVH1CTC_lQAn/view?usp=sharing"
+              to="https://drive.google.com/file/d/1S56RQywSSjTfbYCjzWleFT6VavPErRMY/view?usp=sharing"
               className={linkStyles}
             >
               <span>Brochure</span>
@@ -179,7 +174,7 @@ function Navbar() {
               <span>Rulebook</span>
             </ActualLink>
           </li>
-          <li className={liStyles}>
+          {/* <li className={liStyles}>
             <Link
               to="/"
               onClick={() => {
@@ -191,7 +186,7 @@ function Navbar() {
             >
               <span>Admin</span>
             </Link>
-          </li>
+          </li> */}
         </ul>
       </div>
 

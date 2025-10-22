@@ -20,7 +20,7 @@ module.exports = {
         'quaternary': '#ff5926',
         'quinary': '#fe6537',
         // Add the new "Iron Flame" palette
-        'crimson-red': '#DC143C',
+        'crimson-red': '#B50000',
         'charcoal': '#222222',
         'gold': '#FFD700',
         'steel-grey': '#A9A9A9',
