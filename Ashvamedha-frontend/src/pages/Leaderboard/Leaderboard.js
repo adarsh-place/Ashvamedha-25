@@ -44,9 +44,9 @@ function Leaderboard() {
     <div>
       <Navbar />
       
-      {/* <ComingSoon/> */}
+      <ComingSoon/>
     
-      {!loading ? (
+      {/* {!loading ? (
         <div className="leaderboard mt-20 ">
           <div className="heading">
             <h2 className="text">
@@ -60,7 +60,8 @@ function Leaderboard() {
             ))}
           </div>
         </div>
-      ) : <Loader/>}
+      ) : <Loader/>} */}
+      
       <Footer />
     </div>
     

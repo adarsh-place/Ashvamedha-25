@@ -5,9 +5,9 @@
     // border: 2px solid red;
 
     .wrapper {
-        height: 85vh;
+        height: 100vh;
         font-size: x-large;
-        color: #FF6F0F;
+        color: #DC143C;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -116,6 +116,8 @@
         height: 100%;
         // border: 2px solid red;
         // background-color: #EADBC8;
+        margin-top: 90px;
+
 
         .heading-point {
             margin-top: 25px;
@@ -125,7 +127,7 @@
             text-align: center;
 
             .h1 {
-                color: #FF6F0F;
+                color: #DC143C;
                 // font-size: 1.2rem;
                 margin-right: 10px;
             }

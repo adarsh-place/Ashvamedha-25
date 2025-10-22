@@ -39,17 +39,17 @@ function SportGallery() {
   const galleryPhotos = [
     {
       cname: "w-3 h-2",
-      imgScr: "https://imgs.search.brave.com/iDs8WHXgMB04i-GEugOk6TidNZENOlJe6sSCPDTvm80/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9wcmV2/aWV3LnJlZGQuaXQv/cG9ydHJhaXQtb2Yt/c29tZS1yYW5kb20t/Z2lybC1mcm9tLXBp/bnRlcmVzdC12MC1w/dDcxc2tjdGJ3d2Mx/LmpwZWc_d2lkdGg9/NjQwJmNyb3A9c21h/cnQmYXV0bz13ZWJw/JnM9MTVjODQ2OTU5/YmU2MzExZWY1ZThl/YTE1NjYzOTA4YTAw/MjE2ODVmZQ",
+      imgScr: "https://res.cloudinary.com/diu6ioiov/image/upload/v1761129307/qxgodwopz0prrfgkbovi_ezdw2b.jpg",
       imgText: "Nature",
     },
     {
       cname: "w-3 h-3",
-      imgScr: "https://imgs.search.brave.com/iDs8WHXgMB04i-GEugOk6TidNZENOlJe6sSCPDTvm80/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9wcmV2/aWV3LnJlZGQuaXQv/cG9ydHJhaXQtb2Yt/c29tZS1yYW5kb20t/Z2lybC1mcm9tLXBp/bnRlcmVzdC12MC1w/dDcxc2tjdGJ3d2Mx/LmpwZWc_d2lkdGg9/NjQwJmNyb3A9c21h/cnQmYXV0bz13ZWJw/JnM9MTVjODQ2OTU5/YmU2MzExZWY1ZThl/YTE1NjYzOTA4YTAw/MjE2ODVmZQ",
+      imgScr: "https://res.cloudinary.com/diu6ioiov/image/upload/v1761129307/qxgodwopz0prrfgkbovi_ezdw2b.jpg",
       imgText: "People",
     },
     {
       cname: "h-2",
-      imgScr: "https://imgs.search.brave.com/iDs8WHXgMB04i-GEugOk6TidNZENOlJe6sSCPDTvm80/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9wcmV2/aWV3LnJlZGQuaXQv/cG9ydHJhaXQtb2Yt/c29tZS1yYW5kb20t/Z2lybC1mcm9tLXBp/bnRlcmVzdC12MC1w/dDcxc2tjdGJ3d2Mx/LmpwZWc_d2lkdGg9/NjQwJmNyb3A9c21h/cnQmYXV0bz13ZWJw/JnM9MTVjODQ2OTU5/YmU2MzExZWY1ZThl/YTE1NjYzOTA4YTAw/MjE2ODVmZQ",
+      imgScr: "https://res.cloudinary.com/diu6ioiov/image/upload/v1761129307/qxgodwopz0prrfgkbovi_ezdw2b.jpg",
       imgText: "Sports",
     },
     {
@@ -59,67 +59,67 @@ function SportGallery() {
     },
     {
       cname: "w-4 h-1",
-      imgScr: "https://imgs.search.brave.com/iDs8WHXgMB04i-GEugOk6TidNZENOlJe6sSCPDTvm80/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9wcmV2/aWV3LnJlZGQuaXQv/cG9ydHJhaXQtb2Yt/c29tZS1yYW5kb20t/Z2lybC1mcm9tLXBp/bnRlcmVzdC12MC1w/dDcxc2tjdGJ3d2Mx/LmpwZWc_d2lkdGg9/NjQwJmNyb3A9c21h/cnQmYXV0bz13ZWJw/JnM9MTVjODQ2OTU5/YmU2MzExZWY1ZThl/YTE1NjYzOTA4YTAw/MjE2ODVmZQ",
+      imgScr: "https://res.cloudinary.com/diu6ioiov/image/upload/v1761129307/qxgodwopz0prrfgkbovi_ezdw2b.jpg",
       imgText: "Food",
     },
     {
       cname: "",
-      imgScr: "https://imgs.search.brave.com/iDs8WHXgMB04i-GEugOk6TidNZENOlJe6sSCPDTvm80/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9wcmV2/aWV3LnJlZGQuaXQv/cG9ydHJhaXQtb2Yt/c29tZS1yYW5kb20t/Z2lybC1mcm9tLXBp/bnRlcmVzdC12MC1w/dDcxc2tjdGJ3d2Mx/LmpwZWc_d2lkdGg9/NjQwJmNyb3A9c21h/cnQmYXV0bz13ZWJw/JnM9MTVjODQ2OTU5/YmU2MzExZWY1ZThl/YTE1NjYzOTA4YTAw/MjE2ODVmZQ",
+      imgScr: "https://res.cloudinary.com/diu6ioiov/image/upload/v1761129307/qxgodwopz0prrfgkbovi_ezdw2b.jpg",
       imgText: "Travel1",
     },
     {
       cname: "",
-      imgScr: "https://imgs.search.brave.com/iDs8WHXgMB04i-GEugOk6TidNZENOlJe6sSCPDTvm80/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9wcmV2/aWV3LnJlZGQuaXQv/cG9ydHJhaXQtb2Yt/c29tZS1yYW5kb20t/Z2lybC1mcm9tLXBp/bnRlcmVzdC12MC1w/dDcxc2tjdGJ3d2Mx/LmpwZWc_d2lkdGg9/NjQwJmNyb3A9c21h/cnQmYXV0bz13ZWJw/JnM9MTVjODQ2OTU5/YmU2MzExZWY1ZThl/YTE1NjYzOTA4YTAw/MjE2ODVmZQ",
+      imgScr: "https://res.cloudinary.com/diu6ioiov/image/upload/v1761129307/qxgodwopz0prrfgkbovi_ezdw2b.jpg",
       imgText: "Travel2",
     },
     {
       cname: "h-2",
-      imgScr: "https://imgs.search.brave.com/iDs8WHXgMB04i-GEugOk6TidNZENOlJe6sSCPDTvm80/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9wcmV2/aWV3LnJlZGQuaXQv/cG9ydHJhaXQtb2Yt/c29tZS1yYW5kb20t/Z2lybC1mcm9tLXBp/bnRlcmVzdC12MC1w/dDcxc2tjdGJ3d2Mx/LmpwZWc_d2lkdGg9/NjQwJmNyb3A9c21h/cnQmYXV0bz13ZWJw/JnM9MTVjODQ2OTU5/YmU2MzExZWY1ZThl/YTE1NjYzOTA4YTAw/MjE2ODVmZQ",
+      imgScr: "https://res.cloudinary.com/diu6ioiov/image/upload/v1761129307/qxgodwopz0prrfgkbovi_ezdw2b.jpg",
       imgText: "Art",
     },
     {
       cname: "h-2",
-      imgScr: "https://imgs.search.brave.com/iDs8WHXgMB04i-GEugOk6TidNZENOlJe6sSCPDTvm80/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9wcmV2/aWV3LnJlZGQuaXQv/cG9ydHJhaXQtb2Yt/c29tZS1yYW5kb20t/Z2lybC1mcm9tLXBp/bnRlcmVzdC12MC1w/dDcxc2tjdGJ3d2Mx/LmpwZWc_d2lkdGg9/NjQwJmNyb3A9c21h/cnQmYXV0bz13ZWJw/JnM9MTVjODQ2OTU5/YmU2MzExZWY1ZThl/YTE1NjYzOTA4YTAw/MjE2ODVmZQ",
+      imgScr: "https://res.cloudinary.com/diu6ioiov/image/upload/v1761129307/qxgodwopz0prrfgkbovi_ezdw2b.jpg",
       imgText: "Car1",
     },
     {
       cname: "w-2 h-3",
-      imgScr: "https://imgs.search.brave.com/iDs8WHXgMB04i-GEugOk6TidNZENOlJe6sSCPDTvm80/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9wcmV2/aWV3LnJlZGQuaXQv/cG9ydHJhaXQtb2Yt/c29tZS1yYW5kb20t/Z2lybC1mcm9tLXBp/bnRlcmVzdC12MC1w/dDcxc2tjdGJ3d2Mx/LmpwZWc_d2lkdGg9/NjQwJmNyb3A9c21h/cnQmYXV0bz13ZWJw/JnM9MTVjODQ2OTU5/YmU2MzExZWY1ZThl/YTE1NjYzOTA4YTAw/MjE2ODVmZQ",
+      imgScr: "https://res.cloudinary.com/diu6ioiov/image/upload/v1761129307/qxgodwopz0prrfgkbovi_ezdw2b.jpg",
       imgText: "car3",
     },
     {
       cname: "w-1 h-3",
-      imgScr: "https://imgs.search.brave.com/iDs8WHXgMB04i-GEugOk6TidNZENOlJe6sSCPDTvm80/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9wcmV2/aWV3LnJlZGQuaXQv/cG9ydHJhaXQtb2Yt/c29tZS1yYW5kb20t/Z2lybC1mcm9tLXBp/bnRlcmVzdC12MC1w/dDcxc2tjdGJ3d2Mx/LmpwZWc_d2lkdGg9/NjQwJmNyb3A9c21h/cnQmYXV0bz13ZWJw/JnM9MTVjODQ2OTU5/YmU2MzExZWY1ZThl/YTE1NjYzOTA4YTAw/MjE2ODVmZQ",
+      imgScr: "https://res.cloudinary.com/diu6ioiov/image/upload/v1761129307/qxgodwopz0prrfgkbovi_ezdw2b.jpg",
       imgText: "Car4",
     },
     {
       cname: "w-3 h-2",
-      imgScr: "https://imgs.search.brave.com/iDs8WHXgMB04i-GEugOk6TidNZENOlJe6sSCPDTvm80/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9wcmV2/aWV3LnJlZGQuaXQv/cG9ydHJhaXQtb2Yt/c29tZS1yYW5kb20t/Z2lybC1mcm9tLXBp/bnRlcmVzdC12MC1w/dDcxc2tjdGJ3d2Mx/LmpwZWc_d2lkdGg9/NjQwJmNyb3A9c21h/cnQmYXV0bz13ZWJw/JnM9MTVjODQ2OTU5/YmU2MzExZWY1ZThl/YTE1NjYzOTA4YTAw/MjE2ODVmZQ",
+      imgScr: "https://res.cloudinary.com/diu6ioiov/image/upload/v1761129307/qxgodwopz0prrfgkbovi_ezdw2b.jpg",
       imgText: "Car5",
     },
     {
       cname: "w-3 h-2",
-      imgScr: "https://imgs.search.brave.com/iDs8WHXgMB04i-GEugOk6TidNZENOlJe6sSCPDTvm80/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9wcmV2/aWV3LnJlZGQuaXQv/cG9ydHJhaXQtb2Yt/c29tZS1yYW5kb20t/Z2lybC1mcm9tLXBp/bnRlcmVzdC12MC1w/dDcxc2tjdGJ3d2Mx/LmpwZWc_d2lkdGg9/NjQwJmNyb3A9c21h/cnQmYXV0bz13ZWJw/JnM9MTVjODQ2OTU5/YmU2MzExZWY1ZThl/YTE1NjYzOTA4YTAw/MjE2ODVmZQ",
+      imgScr: "https://res.cloudinary.com/diu6ioiov/image/upload/v1761129307/qxgodwopz0prrfgkbovi_ezdw2b.jpg",
       imgText: "Car6",
     },
     {
       cname: "w-1 h-1",
-      imgScr: "https://imgs.search.brave.com/iDs8WHXgMB04i-GEugOk6TidNZENOlJe6sSCPDTvm80/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9wcmV2/aWV3LnJlZGQuaXQv/cG9ydHJhaXQtb2Yt/c29tZS1yYW5kb20t/Z2lybC1mcm9tLXBp/bnRlcmVzdC12MC1w/dDcxc2tjdGJ3d2Mx/LmpwZWc_d2lkdGg9/NjQwJmNyb3A9c21h/cnQmYXV0bz13ZWJw/JnM9MTVjODQ2OTU5/YmU2MzExZWY1ZThl/YTE1NjYzOTA4YTAw/MjE2ODVmZQ",
+      imgScr: "https://res.cloudinary.com/diu6ioiov/image/upload/v1761129307/qxgodwopz0prrfgkbovi_ezdw2b.jpg",
       imgText: "Car7",
     },
     {
       cname: "w-1 h-3",
-      imgScr: "https://imgs.search.brave.com/iDs8WHXgMB04i-GEugOk6TidNZENOlJe6sSCPDTvm80/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9wcmV2/aWV3LnJlZGQuaXQv/cG9ydHJhaXQtb2Yt/c29tZS1yYW5kb20t/Z2lybC1mcm9tLXBp/bnRlcmVzdC12MC1w/dDcxc2tjdGJ3d2Mx/LmpwZWc_d2lkdGg9/NjQwJmNyb3A9c21h/cnQmYXV0bz13ZWJw/JnM9MTVjODQ2OTU5/YmU2MzExZWY1ZThl/YTE1NjYzOTA4YTAw/MjE2ODVmZQ",
+      imgScr: "https://res.cloudinary.com/diu6ioiov/image/upload/v1761129307/qxgodwopz0prrfgkbovi_ezdw2b.jpg",
       imgText: "Car8",
     },
     {
       cname: "w-2 h-2",
-      imgScr: "https://imgs.search.brave.com/iDs8WHXgMB04i-GEugOk6TidNZENOlJe6sSCPDTvm80/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9wcmV2/aWV3LnJlZGQuaXQv/cG9ydHJhaXQtb2Yt/c29tZS1yYW5kb20t/Z2lybC1mcm9tLXBp/bnRlcmVzdC12MC1w/dDcxc2tjdGJ3d2Mx/LmpwZWc_d2lkdGg9/NjQwJmNyb3A9c21h/cnQmYXV0bz13ZWJw/JnM9MTVjODQ2OTU5/YmU2MzExZWY1ZThl/YTE1NjYzOTA4YTAw/MjE2ODVmZQ",
+      imgScr: "https://res.cloudinary.com/diu6ioiov/image/upload/v1761129307/qxgodwopz0prrfgkbovi_ezdw2b.jpg",
       imgText: "Car10",
     },
     {
       cname: "w-3 h-2",
-      imgScr: "https://imgs.search.brave.com/iDs8WHXgMB04i-GEugOk6TidNZENOlJe6sSCPDTvm80/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9wcmV2/aWV3LnJlZGQuaXQv/cG9ydHJhaXQtb2Yt/c29tZS1yYW5kb20t/Z2lybC1mcm9tLXBp/bnRlcmVzdC12MC1w/dDcxc2tjdGJ3d2Mx/LmpwZWc_d2lkdGg9/NjQwJmNyb3A9c21h/cnQmYXV0bz13ZWJw/JnM9MTVjODQ2OTU5/YmU2MzExZWY1ZThl/YTE1NjYzOTA4YTAw/MjE2ODVmZQ",
+      imgScr: "https://res.cloudinary.com/diu6ioiov/image/upload/v1761129307/qxgodwopz0prrfgkbovi_ezdw2b.jpg",
       imgText: "Car11",
     },
     {
@@ -129,22 +129,22 @@ function SportGallery() {
     },
     {
       cname: "w-3 h-2",
-      imgScr: "https://imgs.search.brave.com/iDs8WHXgMB04i-GEugOk6TidNZENOlJe6sSCPDTvm80/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9wcmV2/aWV3LnJlZGQuaXQv/cG9ydHJhaXQtb2Yt/c29tZS1yYW5kb20t/Z2lybC1mcm9tLXBp/bnRlcmVzdC12MC1w/dDcxc2tjdGJ3d2Mx/LmpwZWc_d2lkdGg9/NjQwJmNyb3A9c21h/cnQmYXV0bz13ZWJw/JnM9MTVjODQ2OTU5/YmU2MzExZWY1ZThl/YTE1NjYzOTA4YTAw/MjE2ODVmZQ",
+      imgScr: "https://res.cloudinary.com/diu6ioiov/image/upload/v1761129307/qxgodwopz0prrfgkbovi_ezdw2b.jpg",
       imgText: "Nature",
     },
     {
       cname: "w-3 h-3",
-      imgScr: "https://imgs.search.brave.com/iDs8WHXgMB04i-GEugOk6TidNZENOlJe6sSCPDTvm80/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9wcmV2/aWV3LnJlZGQuaXQv/cG9ydHJhaXQtb2Yt/c29tZS1yYW5kb20t/Z2lybC1mcm9tLXBp/bnRlcmVzdC12MC1w/dDcxc2tjdGJ3d2Mx/LmpwZWc_d2lkdGg9/NjQwJmNyb3A9c21h/cnQmYXV0bz13ZWJw/JnM9MTVjODQ2OTU5/YmU2MzExZWY1ZThl/YTE1NjYzOTA4YTAw/MjE2ODVmZQ",
+      imgScr: "https://res.cloudinary.com/diu6ioiov/image/upload/v1761129307/qxgodwopz0prrfgkbovi_ezdw2b.jpg",
       imgText: "People",
     },
     {
       cname: "h-2.5 w-2",
-      imgScr: "https://imgs.search.brave.com/iDs8WHXgMB04i-GEugOk6TidNZENOlJe6sSCPDTvm80/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9wcmV2/aWV3LnJlZGQuaXQv/cG9ydHJhaXQtb2Yt/c29tZS1yYW5kb20t/Z2lybC1mcm9tLXBp/bnRlcmVzdC12MC1w/dDcxc2tjdGJ3d2Mx/LmpwZWc_d2lkdGg9/NjQwJmNyb3A9c21h/cnQmYXV0bz13ZWJw/JnM9MTVjODQ2OTU5/YmU2MzExZWY1ZThl/YTE1NjYzOTA4YTAw/MjE2ODVmZQ",
+      imgScr: "https://res.cloudinary.com/diu6ioiov/image/upload/v1761129307/qxgodwopz0prrfgkbovi_ezdw2b.jpg",
       imgText: "Sport1",
     },
     {
       cname: "h-1 w-1",
-      imgScr: "https://imgs.search.brave.com/iDs8WHXgMB04i-GEugOk6TidNZENOlJe6sSCPDTvm80/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9wcmV2/aWV3LnJlZGQuaXQv/cG9ydHJhaXQtb2Yt/c29tZS1yYW5kb20t/Z2lybC1mcm9tLXBp/bnRlcmVzdC12MC1w/dDcxc2tjdGJ3d2Mx/LmpwZWc_d2lkdGg9/NjQwJmNyb3A9c21h/cnQmYXV0bz13ZWJw/JnM9MTVjODQ2OTU5/YmU2MzExZWY1ZThl/YTE1NjYzOTA4YTAw/MjE2ODVmZQ",
+      imgScr: "https://res.cloudinary.com/diu6ioiov/image/upload/v1761129307/qxgodwopz0prrfgkbovi_ezdw2b.jpg",
       imgText: "Sport1",
     }
     // {
@@ -203,19 +203,19 @@ function SportGallery() {
         <span className="h2">MEDHA-</span>
         <span className="h1">2024</span>
       </h1>
-      <div class="container-gallery">
+      <div className="container-gallery">
         
         <div className={model ? "model open" : "model"}>
           <img src={tempImgSrc} alt="Loading..." />
           <AiOutlineClose onClick={() => setModel(false)} className="icon" />
         </div>
-        {galleryPhotos.map((item) => {
+        {galleryPhotos.map((item,idx) => {
           return item.isHeading ? (
-            <div className={`gallery-container ${item.cname}`}>
+            <div key ={idx} className={`gallery-container ${item.cname}`}>
               <div className="heading">{item.text}</div>
             </div>
           ) : (
-            <div className={`gallery-container ${item.cname}`}>
+            <div key = {idx} className={`gallery-container ${item.cname}`}>
               <div className="gallery-item" onClick={() => getImg(item.imgScr)}>
                 <div className="image">
                   <img src={item.imgScr} alt={item.imgText} />
