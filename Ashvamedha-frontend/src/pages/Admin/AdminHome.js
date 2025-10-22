@@ -28,7 +28,7 @@ function AdminHome() {
   return (
     <>
       <Navbar />
-      <div className="flex justify-center items-center min-h-[80vh] min-w-screen p-6 text-white">
+      <div className="mt-36 flex justify-center items-center min-h-[80vh] min-w-screen p-6 text-white">
         {!loading ? (
           <>
             {loginCtx.isLoggedIn ? (

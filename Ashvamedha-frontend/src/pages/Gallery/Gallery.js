@@ -7,7 +7,7 @@ import SportGallery from "../../components/SportGallery/SportGallery.js";
 
 function Gallery() {
   return (
-    <div className="gallery mt-16">
+    <div className="gallery mt-20">
       <Navbar />
       
       <SportGallery />
