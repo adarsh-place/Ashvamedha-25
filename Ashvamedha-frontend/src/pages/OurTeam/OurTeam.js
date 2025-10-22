@@ -35,7 +35,7 @@ function OurTeam() {
     {
       name: "Chakradhar Allu ",
       position: "Chief Coordinator",
-      image: "https://res.cloudinary.com/backend-project-chai-aur-code/image/upload/v1729327567/ashvamedha/team/z0wu3a16v1k0wgqeyxt5.jpg",
+      image: "https://res.cloudinary.com/diu6ioiov/image/upload/v1761076912/IMG_20251019_193409_-_Chakradhar_Allu_r7fjbz.png",
       no: "+91 96186 58706",
     },
   ];
@@ -44,31 +44,31 @@ function OurTeam() {
     {
       name: "Vansh Raj Gupta ",
       position: "Publicity ",
-      image: "https://res.cloudinary.com/backend-project-chai-aur-code/image/upload/v1728720503/ashvamedha/team/pi1yovzsrbn9xqew5hew.jpg",
+      image: "https://res.cloudinary.com/diu6ioiov/image/upload/v1761076909/1759910803269_-_NIRF_2024_54_cclxcg.png",
       no: "+91 99737 70623",
     },
     {
       name: "Harish patidar ",
       position: "Events ",
-      image: "https://res.cloudinary.com/backend-project-chai-aur-code/image/upload/v1728721046/ashvamedha/team/vplukiobhozebm5pio5t.jpg",
+      image: "https://res.cloudinary.com/diu6ioiov/image/upload/v1761132116/Harish_Patidar_of4pwj.jpg",
       no: "+91 62648 69374 ",
     },
     {
       name: "Srijith burra",
       position: "Sponsorship",
-      image : "https://res.cloudinary.com/backend-project-chai-aur-code/image/upload/v1728720503/ashvamedha/team/wvxnpci56fgf6qa2uyik.jpg",
+      image : "https://res.cloudinary.com/diu6ioiov/image/upload/v1761076914/Screenshot_2025-10-21-10-33-47-014_com.miui.gallery-edit_-_BURRA_SRIJITH_qvtdiw.jpg",
       no: "+91 78159 79633",
     },
     {
       name: "Rohinish Raj",
       position: "Web&D ",
-      image: "https://res.cloudinary.com/backend-project-chai-aur-code/image/upload/v1728720505/ashvamedha/team/d6pqqqdexscnkvwnoxps.jpg",
+      image: "https://res.cloudinary.com/diu6ioiov/image/upload/v1761077109/WhatsApp_Image_2025-10-22_at_01.34.06_c72567a1_ucrk0d.jpg",
       no: "+91 85216 71402",
     },
     {
       name: "Afzal Muhammed",
       position:"Hospitality",
-      image: "https://res.cloudinary.com/backend-project-chai-aur-code/image/upload/v1728720504/ashvamedha/team/itligupcge8v6xtmrbiw.jpg",
+      image: "https://res.cloudinary.com/diu6ioiov/image/upload/v1761076910/20251001_173413_-_Afzal_Muhammed_owjlvc.jpg",
       no: "+91 63826 43748",
     },
   ];
@@ -76,50 +76,50 @@ function OurTeam() {
     {
       name: "Adarsh Chandra",
       position: "Core Head",
-      image: "https://res.cloudinary.com/backend-project-chai-aur-code/image/upload/v1728720504/ashvamedha/team/vlycnaazp2qcrygswxya.jpg",
+      image: "https://res.cloudinary.com/diu6ioiov/image/upload/v1761133357/aa_zkgnr0.jpg",
       no: "+91 93026 62809",
     },
     {
       name: "Shreyansh Shashwat",
       position: "Core Head",
-      image: "https://res.cloudinary.com/backend-project-chai-aur-code/image/upload/v1728843691/ashvamedha/team/u5rmar3eivphrscjfm8f.jpg",
+      image: "https://res.cloudinary.com/diu6ioiov/image/upload/v1761076915/20240911_132434_-_Shreyansh_Shashwat_dwwmsp.jpg",
       no: "+91 91228 93411 ",
     },
     {
       name: "Piyush Kashyap",
       position: "Core Head",
-      image: "https://res.cloudinary.com/backend-project-chai-aur-code/image/upload/v1728720504/ashvamedha/team/vvxkkb0qsq2cd6t7vkvx.jpg",
+      image: "https://res.cloudinary.com/diu6ioiov/image/upload/v1761076915/IMG_7417_-_piyush_kashyap_g1fsm1.jpg",
       no: "+91 98278 71224",
     },
     {
       name: "Ayush Mittal ",
       position: "Core Head",
-      image: "https://res.cloudinary.com/backend-project-chai-aur-code/image/upload/v1729419882/ashvamedha/team/zpcylfs2qx6vtsnovhur.jpg",
+      image: "https://res.cloudinary.com/diu6ioiov/image/upload/v1761076916/IMG20250930203044_-_AYUSH_Mittal_vttjfz.jpg",
       no: "+91 63676 45929",
     },
     {
       name: "Chandan Kumar ",
       position: "Core Head",
-      image: "https://res.cloudinary.com/backend-project-chai-aur-code/image/upload/v1728720504/ashvamedha/team/vjmjgjyyxwcdksbuoeyj.jpg",
+      image: "https://res.cloudinary.com/diu6ioiov/image/upload/v1761076915/IMG_20250203_220941_-_Chandan_Kumar_mc2mdj.jpg",
       no: "+91 83402 65760",
     },
     {
       name: "Arit Gandhi",
       position: "Core Head",
-      image: "https://res.cloudinary.com/backend-project-chai-aur-code/image/upload/v1728720505/ashvamedha/team/suzhk8pi17d2a9tng3u0.jpg",
+      image: "https://res.cloudinary.com/diu6ioiov/image/upload/v1761076917/IMG20251003165955_-_Arit_Gandhi_xmqipp.jpg",
       no: "+91 9353255049",
     },
     {
       name: "Tanuj Kumar Gupta",
       position: "Core Head",
-      image:"https://res.cloudinary.com/backend-project-chai-aur-code/image/upload/v1729402896/ashvamedha/team/xg85qegkihg0luh1th9v.jpg",
+      image:"https://res.cloudinary.com/diu6ioiov/image/upload/v1761076912/IMG_20250725_184221_-_Tanuj_Kumar_Gupta_iawmd2.jpg",
       no: "+91 9079095706",
     },
     
     {
       name: "Baman Teja",
       position: "Core Head",
-      image: "https://res.cloudinary.com/backend-project-chai-aur-code/image/upload/v1728843690/ashvamedha/team/ide1pqdiut3yacmsnbhk.jpg",
+      image: "https://res.cloudinary.com/diu6ioiov/image/upload/v1761076916/Snapchat-1808339712_-_BAMAN_TEJA_ahihj8.jpg",
       no: "+91 6304640345",
     },
   ];
