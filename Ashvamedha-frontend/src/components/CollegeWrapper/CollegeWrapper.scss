@@ -7,7 +7,14 @@
     align-items: center;
     justify-content: space-around;
     // border-radius: 10px;
-    color: white;
+    color: rgba(221, 201, 72, 0.941);
+
+    /* base glowy text */
+    text-shadow:
+        0 0 6px rgba(221, 201, 72, 0.45),
+        0 0 14px rgba(181, 115, 24, 0.16);
+    transition: text-shadow 180ms ease, transform 180ms ease;
+    -webkit-font-smoothing: antialiased;
 
     .serial-no {
         width: 20%;
@@ -17,6 +24,10 @@
         text-transform: uppercase;
         width: 50%;
 
+        /* stronger glow for name */
+        text-shadow:
+            0 0 8px rgba(245, 200, 75, 0.65),
+            0 0 26px rgba(181, 115, 24, 0.28);
     }
 
     .score {
@@ -38,6 +49,15 @@
         justify-content: center;
         align-items: center;
         font-size: 18px;
+    }
+
+    /* intensify glow on hover / focus */
+    &:hover,
+    &:focus-within {
+        text-shadow:
+            0 0 12px rgba(221, 201, 72, 0.9),
+            0 0 36px rgba(181, 115, 24, 0.38);
+        transform: translateY(-2px);
     }
 }
 

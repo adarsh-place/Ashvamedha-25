@@ -9,6 +9,15 @@
     width: 80%;
     text-transform: uppercase;
     margin-top: 20px;
+    color: rgba(221, 201, 72, 0.941);
+
+    /* base glowy text */
+    text-shadow:
+        0 0 6px rgba(221, 201, 72, 0.45),
+        0 0 14px rgba(181, 115, 24, 0.16);
+    transition: text-shadow 180ms ease, transform 180ms ease;
+    -webkit-font-smoothing: antialiased;
+    box-shadow: 0 8px 30px rgba(236, 3, 3, 0.881),inset 0 1px 0 rgb(0, 0, 0);
 
     .serial-no {
         width: 10%;
