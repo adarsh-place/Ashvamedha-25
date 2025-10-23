@@ -159,7 +159,7 @@ function Navbar() {
           <li className={liStyles}>
             <ActualLink
               target="_blank"
-              to="https://drive.google.com/file/d/1S56RQywSSjTfbYCjzWleFT6VavPErRMY/view?usp=sharing"
+              to="https://drive.google.com/file/d/1qE2TqhjvxSFq4ZCfkzNmN2ixtyaqZo5y/view?usp=drive_link"
               className={linkStyles}
             >
               <span>Brochure</span>
@@ -168,7 +168,7 @@ function Navbar() {
           <li className={liStyles}>
             <ActualLink
               target="_blank"
-              to="https://drive.google.com/file/d/1InFTI3Zu8qfCHNtCNvprIHpEpjz94Xjg/view?usp=sharing"
+              to="https://drive.google.com/file/d/1CurvGYxRDieB-BbMgZFNAOib9IRDJmiI/view?usp=drive_link"
               className={linkStyles}
             >
               <span>Rulebook</span>

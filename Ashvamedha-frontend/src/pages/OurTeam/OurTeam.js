@@ -107,20 +107,26 @@ function OurTeam() {
       name: "Arit Gandhi",
       position: "Core Head",
       image: "https://res.cloudinary.com/diu6ioiov/image/upload/v1761076917/IMG20251003165955_-_Arit_Gandhi_xmqipp.jpg",
-      no: "+91 9353255049",
+      no: "+91 93532 55049",
     },
     {
       name: "Tanuj",
       position: "Core Head",
       image:"https://res.cloudinary.com/diu6ioiov/image/upload/v1761076912/IMG_20250725_184221_-_Tanuj_Kumar_Gupta_iawmd2.jpg",
-      no: "+91 9079095706",
+      no: "+91 90790 95706",
     },
     
     {
       name: "Baman Teja",
       position: "Core Head",
       image: "https://res.cloudinary.com/diu6ioiov/image/upload/v1761076916/Snapchat-1808339712_-_BAMAN_TEJA_ahihj8.jpg",
-      no: "+91 6304640345",
+      no: "+91 63046 40345",
+    },
+    {
+      name: "Sandeep Navtiya",
+      position: "Core Head",
+      image: "https://res.cloudinary.com/diu6ioiov/image/upload/v1761227873/WhatsApp_Image_2025-10-23_at_12.25.30_54985402_bxfiad.jpg",
+      no: "+91 96308 86725",
     },
   ];
   return (
@@ -135,7 +141,7 @@ function OurTeam() {
         <div className="team-container">
           <div className="cards">
             {/* Display Chief Coordinator outside the grid */}
-            <div className="section-subheading text-crimson-red pb-6">CHIEF COORDINATORS</div>
+            <div className="section-subheading text-crimson-red pb-6">CHIEF COORDINATOR</div>
             <div className="chief-coordinator">
               {chiefCoordinator.map((member, index) => (
                 <div className="card" key={index}>
