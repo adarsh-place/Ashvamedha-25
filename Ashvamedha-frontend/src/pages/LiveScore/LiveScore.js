@@ -50,7 +50,7 @@ function LiveScore() {
             <div className="flex items-center text-[48px] sm:text-[40px] font-extrabold tracking-wider">
               <span>
                 <img
-                  src={live}
+                  src="../../assests/demoPhotos/live.png"
                   alt="live"
                   className="w-20 animate-pulse opacity-90"
                 />

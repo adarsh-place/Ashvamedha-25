@@ -16,7 +16,7 @@ function ShowAllEvents() {
       date: "26th and 27th October",
       theme: "dream",
       nameid: "chess",
-      link: "http://google.com/",
+      link: "https://forms.gle/58mquP7dhZpJMHzw5",
     },
     {
       id: 2,
@@ -27,7 +27,7 @@ function ShowAllEvents() {
       date: "26th and 27th October",
       theme: "dominate",
       nameid: "volleyball",
-      link: "http://google.com/",
+      link: "https://forms.gle/sZEMVWQMQ6dmu6pCA",
     },
     {
       id: 3,
@@ -38,7 +38,7 @@ function ShowAllEvents() {
       date: "26th and 27th October",
       theme: "dream",
       nameid: "badminton",
-      link: "http://google.com/",
+      link: "https://forms.gle/yHJi86AeqYK7uxEdA",
     },
     {
       id: 4,
@@ -49,7 +49,7 @@ function ShowAllEvents() {
       date: "26th and 27th October",
       theme: "dominate",
       nameid: "football",
-      link: "http://google.com/",
+      link: "https://forms.gle/pbJpSAatqwBY2Ebj8",
     },
     {
       id: 5,
@@ -60,7 +60,7 @@ function ShowAllEvents() {
       date: "26th and 27th October",
       theme: "dream",
       nameid: "tabletennis",
-      link: "http://google.com/",
+      link: "https://forms.gle/XEmFy59gLhX378U1A",
     },
     {
       id: 6,
@@ -71,7 +71,7 @@ function ShowAllEvents() {
       date: "26th and 27th October",
       theme: "dominate",
       nameid: "basketball",
-      link: "http://google.com/",
+      link: "https://forms.gle/MphFhZ6brpEeyWno7",
     },
     {
       id: 7,
@@ -82,7 +82,7 @@ function ShowAllEvents() {
       date: "26th and 27th October",
       theme: "dream",
       nameid: "gym",
-      link: "http://google.com/",
+      link: "https://forms.gle/JuoUZsBZ6njzRr4T6",
     },
     {
       id: 8,
@@ -93,7 +93,7 @@ function ShowAllEvents() {
       date: "26th and 27th October",
       theme: "dominate",
       nameid: "bgmi",
-      link: "http://google.com/",
+      link: "https://unstop.com/p/bgmi-e-sports-ashvamedha-iit-bhubaneswar-indian-institute-of-technology-bhubaneswar-1578396",
     },
     {
       id: 9,
@@ -104,7 +104,7 @@ function ShowAllEvents() {
       date: "26th and 27th October",
       theme: "dream",
       nameid: "lawntennis",
-      link: "http://google.com/",
+      link: "https://forms.gle/JuoUZsBZ6njzRr4T6",
     },
     {
       id: 10,
@@ -115,20 +115,21 @@ function ShowAllEvents() {
       date: "26th and 27th October",
       theme: "dominate",
       nameid: "valorant",
-      link: "http://google.com/",
+      link: "https://forms.gle/Vyg1PeB8dMprT7PG7",
     },
     {
       id: 11,
-      sportName: "Athletics",
+      sportName: "Kho Kho",
       imgUrl:
-        "https://res.cloudinary.com/diu6ioiov/image/upload/v1761074270/IMG-20251021-WA0011_ottus7.jpg",
-      desc: "Run with purpose, leap with passion, and let every stride take you closer to your dreams.",
+        "https://res.cloudinary.com/diu6ioiov/image/upload/v1761074269/IMG-20251021-WA0008_iotdla.jpg",
+      desc: "",
       date: "26th and 27th October",
-      theme: "warm",
-      nameid: "athletics",
-      link: "http://google.com/",
+      theme: "dream",
+      nameid: "khokho",
+      link: "https://forms.gle/QHD72r9oiJhQDcz4A",
     },
   ];
+
 
   return (
     <>

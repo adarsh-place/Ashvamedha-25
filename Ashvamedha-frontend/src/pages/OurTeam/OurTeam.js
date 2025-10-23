@@ -80,6 +80,12 @@ function OurTeam() {
       no: "+91 93026 62809",
     },
     {
+      name: "Arit Gandhi",
+      position: "Core Head",
+      image: "https://res.cloudinary.com/diu6ioiov/image/upload/v1761076917/IMG20251003165955_-_Arit_Gandhi_xmqipp.jpg",
+      no: "+91 93532 55049",
+    },
+    {
       name: "Shreyansh",
       position: "Core Head",
       image: "https://res.cloudinary.com/diu6ioiov/image/upload/v1761076915/20240911_132434_-_Shreyansh_Shashwat_dwwmsp.jpg",
@@ -102,12 +108,6 @@ function OurTeam() {
       position: "Core Head",
       image: "https://res.cloudinary.com/diu6ioiov/image/upload/v1761076915/IMG_20250203_220941_-_Chandan_Kumar_mc2mdj.jpg",
       no: "+91 83402 65760",
-    },
-    {
-      name: "Arit Gandhi",
-      position: "Core Head",
-      image: "https://res.cloudinary.com/diu6ioiov/image/upload/v1761076917/IMG20251003165955_-_Arit_Gandhi_xmqipp.jpg",
-      no: "+91 93532 55049",
     },
     {
       name: "Tanuj",
