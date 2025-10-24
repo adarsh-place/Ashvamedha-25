@@ -77,7 +77,7 @@ function Footer() {
             Gymkhana Office, IIT Bhubaneswar
           </p>
           <p className="flex items-center mb-3 text-lg">
-            <BiSolidPhoneCall className="mr-2 text-2xl" /> +91 7976512192
+            <BiSolidPhoneCall className="mr-2 text-2xl" /> +91 9618658706
           </p>
           <p className="flex items-center mb-3 text-lg">
             <AiOutlineMail className="mr-2 text-2xl" />

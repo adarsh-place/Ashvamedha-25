@@ -160,7 +160,7 @@ function OurTeam() {
               {teamMembers.map((member, index) => (
                 <div className="card" key={index}>
                   <div className="image">
-                    <img src={member.image} alt="" class />
+                    <img src={member.image} alt="" />
                   </div>
                   <div className="description">
                     <p className="num">{member.position} <br /></p>

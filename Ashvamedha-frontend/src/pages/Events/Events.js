@@ -141,7 +141,7 @@ function Events() {
       id: 11,
       sportName: "Body Building",
       imgUrl:
-        "https://res.cloudinary.com/diu6ioiov/image/upload/v1761327526/IMG-20251021-WA0003_d4gunj.jpg",
+        "https://res.cloudinary.com/diu6ioiov/image/upload/v1761332152/IMG-20251021-WA0003_d4gunj.jpg",
       desc: "The sweat drips, the heart pounds. Strength is built, not given.",
       date: "26th and 27th October",
       theme: "dream",
