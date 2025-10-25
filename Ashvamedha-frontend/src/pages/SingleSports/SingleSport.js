@@ -19,7 +19,7 @@ const sportsInfo = [
     nameid: "chess",
   },
   {
-    id: 2,
+    id: 3,
     sportName: "Badminton",
     imgUrl: "https://res.cloudinary.com/diu6ioiov/image/upload/v1761074273/IMG-20251021-WA0013_rqxelz.jpg",
     desc: "Badminton is not only about winning. It's about playing beautiful, memorable games.",
@@ -32,7 +32,7 @@ const sportsInfo = [
     nameid: "badminton",
   },
   {
-    id: 3,
+    id: 2,
     sportName: "Volleyball",
     imgUrl: "https://res.cloudinary.com/diu6ioiov/image/upload/v1761074273/IMG-20251021-WA0012_yvztv3.jpg",
     desc: "Success in volleyball comes not from individual glory but from seamless teamwork",
@@ -58,7 +58,7 @@ const sportsInfo = [
     nameid: "football",
   },
   {
-    id: 5,
+    id: 6,
     sportName: "Basketball",
     imgUrl: "https://res.cloudinary.com/backend-project-chai-aur-code/image/upload/v1727729822/ashvamedha/events/rfmuljtun5pabxcdrlou.jpg",
     desc: "Basketball is like photography. If you don't focus, all you have is the negative.",
@@ -71,7 +71,7 @@ const sportsInfo = [
     nameid: "basketball",
   },
   {
-    id: 6,
+    id: 5,
     sportName: "Table Tennis",
     imgUrl: "https://res.cloudinary.com/diu6ioiov/image/upload/v1761074269/IMG-20251021-WA0006_blikvt.jpg",
     desc: "The sound of the ball hitting the table is the sound of opportunity. Don't miss your shot.",
@@ -84,7 +84,7 @@ const sportsInfo = [
     nameid: "tabletennis",
   },
   {
-    id: 7,
+    id: 8,
     sportName: "BGMI",
     imgUrl: "https://res.cloudinary.com/diu6ioiov/image/upload/v1761126385/bgmi_remkn8.png",
     desc: "Every drop brings a new chance; gear up and make your mark in the battlefield .",
@@ -97,7 +97,7 @@ const sportsInfo = [
     nameid: "bgmi",
   },
   {
-    id: 8,
+    id: 7,
     sportName: "GYM & Weightlifting",
     imgUrl: "https://res.cloudinary.com/diu6ioiov/image/upload/v1761074268/IMG-20251021-WA0004_zjpx3z.jpg",
     desc: "Every rep is a step closer to becoming the strongest version of yourself",
