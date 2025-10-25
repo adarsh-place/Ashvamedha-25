@@ -154,9 +154,14 @@ function ShowAllEvents() {
           {sportsInfo.map((item, index) => (
             <div
               key={item.id}
-              className={`mt-8 flex flex-col md:flex-row items-center gap-6 md:gap-12 transition-transform transform  ${
+              className={`mt-8 flex flex-col md:flex-row items-center gap-6 md:gap-12 transition-transform transform hover:scale-[1.02] cursor-pointer ${ // Added hover and cursor
                 index % 2 === 1 ? "md:flex-row-reverse" : ""
               }`}
+              // **** ADDED THIS ONCLICK HANDLER ****
+              onClick={() => {
+                window.scrollTo(0, 0);
+                navigate(`/events/${item.id}`);
+              }}
             >
               {/* Image */}
               <div className="w-full md:w-1/2 flex justify-center">
@@ -180,34 +185,12 @@ function ShowAllEvents() {
                   {item.desc}
                 </p>
                 <div className="flex justify-center md:justify-start gap-4 mt-2">
-                  {/* <button
-                    onClick={() => {
-                      window.scrollTo(0, 0);
-                      navigate(`/livescore/${item.nameid}`);
-                    }}
-                    className={`px-4 py-2 border-2 rounded-lg font-semibold transition-all duration-300 ${
-                      item.theme === "warm"
-                        ? "text-orange-600 border-orange-600 hover:bg-orange-600 hover:text-white"
-                        : "text-sky-400 border-sky-400 hover:bg-sky-400 hover:text-white"
-                    }`}
-                  >
-                    Live Score
-                  </button>
+                  {/* ... (Your commented-out buttons) ... */}
                   <button
-                    onClick={() => {
-                      window.scrollTo(0, 0);
-                      navigate(`/fixtures/${item.nameid}`);
-                    }}
-                    className={`px-4 py-2 border-2 rounded-lg font-semibold transition-all duration-300 ${
-                      item.theme === "warm"
-                        ? "text-orange-600 border-orange-600 hover:bg-orange-600 hover:text-white"
-                        : "text-sky-400 border-sky-400 hover:bg-sky-400 hover:text-white"
-                    }`}
-                  >
-                    Fixtures
-                  </button> */}
-                  <button
-                    onClick={() => {
+                    // **** MODIFIED THIS ONCLICK HANDLER ****
+                    onClick={(e) => {
+                      // Stop the click from bubbling up to the parent div
+                      e.stopPropagation();
                       window.open(item.link, "_blank");
                     }}
                     className={`px-4 py-2 border-2 rounded-lg font-semibold transition-all duration-300 ${

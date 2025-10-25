@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React, { useEffect, useState, useRef } from "react"; // 1. Import useRef
 import Footer from "../../components/Footer/Footer.js";
 import Navbar from "../../components/Navbar/Navbar.js";
 import ScoreCard from "../../components/ScoreCard/ScoreCard.js";
@@ -10,6 +10,9 @@ import { setLoading } from "../../redux/appSlice.js";
 import { useDispatch } from "react-redux";
 import ComingSoon from "../../components/ComingSoon/ComingSoon.js";
 
+// A more reasonable polling interval (5 seconds)
+const POLLING_INTERVAL = 5000; 
+
 function LiveScore() {
   const [text, setText] = useState("Searching for live matches ...");
   const dispatch = useDispatch();
@@ -17,29 +20,80 @@ function LiveScore() {
   const params = useParams();
   const { sportname } = params;
 
+  // 2. Create a ref to hold the timeout ID
+  // This lets us cancel it when the component unmounts
+  const pollTimer = useRef(null); 
+
+  // 3. Refactor fetchLiveScore
+  // We remove the setLoading(false) from here to control it better in the useEffect
   async function fetchLiveScore() {
     try {
       const result = await axios.post(`${server}/sport/getlivescore`, {
         sportname: sportname.toLowerCase(),
       });
       setLiveScore(result.data.result.liveScoreInfo);
-      dispatch(setLoading(false));
     } catch (err) {
-      dispatch(setLoading(false));
       console.log("error", err);
+      // Don't dispatch loading false here, let the effect handle it
     }
   }
 
+  // 4. Update the useEffect logic
   useEffect(() => {
-    setTimeout(() => {
-      if (!liveScore.length) setText("No live matches present");
-    }, 4000);
+    let isMounted = true; // Flag to prevent state updates if component unmounts
+
+    // Set loading to true for the *initial* load
     dispatch(setLoading(true));
-    const interval = setInterval(fetchLiveScore, 1000);
-    return () => clearInterval(interval);
-  });
+
+    // Your logic for setting "No live matches" text
+    const noMatchTimer = setTimeout(() => {
+      // Use functional update to check the *current* state
+      setLiveScore((currentScore) => {
+        if (currentScore.length === 0) {
+          setText("No live matches present");
+        }
+        return currentScore;
+      });
+    }, 4000);
+
+    // Define the polling function
+    const runPolling = async () => {
+      try {
+        await fetchLiveScore(); // Wait for the fetch to complete
+      } catch (err) {
+        console.error("Polling fetch failed", err);
+      } finally {
+        // If the component is still mounted, schedule the next poll
+        if (isMounted) {
+          pollTimer.current = setTimeout(runPolling, POLLING_INTERVAL);
+        }
+      }
+    };
+
+    // This handles the *initial* fetch
+    fetchLiveScore()
+      .catch((err) => console.error("Initial fetch failed", err))
+      .finally(() => {
+        // When the *first* fetch is done, hide the loader
+        if (isMounted) {
+          dispatch(setLoading(false));
+          // And start the polling loop
+          pollTimer.current = setTimeout(runPolling, POLLING_INTERVAL);
+        }
+      });
+
+    // 5. Cleanup function
+    return () => {
+      isMounted = false; // Mark as unmounted
+      clearTimeout(noMatchTimer); // Clear the "no matches" timer
+      if (pollTimer.current) {
+        clearTimeout(pollTimer.current); // Clear the next scheduled poll
+      }
+    };
+  }, [dispatch, sportname]); // Dependencies
 
   return (
+    // ... Your JSX ... (no changes needed here)
     <div className="flex flex-col justify-center items-center w-full h-full text-white">
       <Navbar />
 
@@ -84,4 +138,4 @@ function LiveScore() {
   );
 }
 
-export default LiveScore;
+export default LiveScore; 

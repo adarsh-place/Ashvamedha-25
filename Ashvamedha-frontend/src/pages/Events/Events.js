@@ -168,6 +168,7 @@ function Events() {
       <div className=" mt-24 min-h-screen w-full flex flex-col items-center overflow-x-hidden bg-gradient-radial from-[#001030] via-[#000814] to-[#000814]">
         {/* Heading */}
         <h2 className="mt-4 flex justify-center items-center text-4xl md:text-5xl font-bold tracking-wide uppercase text-center md:text-[3.5rem]">
+          {/* Assuming you have 'crimson-red' defined in your tailwind.config.js */}
           <span className="text-crimson-red mr-2">OUR</span>
           <span className="text-white">EVENTS</span>
         </h2>
@@ -210,6 +211,12 @@ function Events() {
             <SwiperSlide
               key={index}
               className="relative w-72 h-96 md:w-80 md:h-[420px] rounded-2xl overflow-hidden bg-white/5 shadow-2xl cursor-pointer transition-transform duration-300 hover:scale-105 hover:shadow-[0_20px_40px_rgba(0,0,0,0.6)]"
+              // **** ADDED THIS ONCLICK HANDLER ****
+              onClick={() => {
+                window.scrollTo(0, 0);
+                // Navigates to /events/1, /events/2, etc.
+                navigate(`/events/${item.id}`);
+              }}
             >
               <img
                 src={item.imgUrl}
@@ -228,39 +235,17 @@ function Events() {
                   {item.desc}
                 </p>
                 <div className="flex justify-center items-center gap-3">
-                  {/* <button
-                    className={`border-2 border-current rounded-lg px-4 py-2 font-semibold text-sm md:text-base transition-all duration-300 ${
-                      item.theme === "dream"
-                        ? "text-amber-500 hover:bg-amber-500 hover:text-white hover:shadow-[0_0_10px_#ff6d02]"
-                        : "text-red-400 hover:bg-red-400 hover:text-white hover:shadow-[0_0_10px_#36d8fe]"
-                    }`}
-                    onClick={() => {
-                      window.scrollTo(0, 0);
-                      navigate(`/livescore/${item.nameid}`);
-                    }}
-                  >
-                    Live Score
-                  </button>
+                  {/* ... (Your commented-out buttons) ... */}
                   <button
                     className={`border-2 border-current rounded-lg px-4 py-2 font-semibold text-sm md:text-base transition-all duration-300 ${
                       item.theme === "dream"
                         ? "text-amber-500 hover:bg-amber-500 hover:text-white hover:shadow-[0_0_10px_#ff6d02]"
                         : "text-red-400 hover:bg-red-400 hover:text-white hover:shadow-[0_0_10px_#36d8fe]"
                     }`}
-                    onClick={() => {
-                      window.scrollTo(0, 0);
-                      navigate(`/fixtures/${item.nameid}`);
-                    }}
-                  >
-                    Fixtures
-                  </button> */}
-                  <button
-                    className={`border-2 border-current rounded-lg px-4 py-2 font-semibold text-sm md:text-base transition-all duration-300 ${
-                      item.theme === "dream"
-                        ? "text-amber-500 hover:bg-amber-500 hover:text-white hover:shadow-[0_0_10px_#ff6d02]"
-                        : "text-red-400 hover:bg-red-400 hover:text-white hover:shadow-[0_0_10px_#36d8fe]"
-                    }`}
-                    onClick={() => {
+                    // **** MODIFIED THIS ONCLICK HANDLER ****
+                    onClick={(e) => {
+                      // Stop the click from bubbling up to the SwiperSlide
+                      e.stopPropagation();
                       window.open(item.link, "_blank");
                     }}
                   >
