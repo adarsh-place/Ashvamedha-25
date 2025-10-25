@@ -94,7 +94,13 @@ function LiveScore() {
 
   return (
     // ... Your JSX ... (no changes needed here)
-    <div className="flex flex-col justify-center items-center w-full h-full text-white">
+    <div className="flex flex-col justify-center items-center w-full h-full text-white" style={{
+          backgroundImage: "url('/bg.jpg')",
+          backgroundRepeat: "no-repeat",
+          backgroundSize: "cover",
+          backgroundPosition: "center",
+          backgroundAttachment: "fixed",
+        }}>
       <Navbar />
 
       <div className="flex flex-col justify-center items-center w-full mt-5 mb-10">

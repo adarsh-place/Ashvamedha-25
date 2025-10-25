@@ -95,9 +95,6 @@ const getLiveScore = async (req, res) => {
     const liveScoreInfo = await liveScore.find({
       sportName: sportname.toLowerCase(),
     });
-    if (!liveScoreInfo.length) {
-      return res.send(404, `Live score not found for ${sportname}`);
-    }
     return res.send(success(200, { liveScoreInfo }));
   } catch (e) {
     console.log("this is the error from updateLiveScore side", e);

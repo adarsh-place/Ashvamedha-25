@@ -5,6 +5,7 @@ import Events from "./pages/Events/Events.js";
 import ShowAllEvents from "./pages/Events/showall.js"; // <-- Import ShowAll page
 import Gallery from "./pages/Gallery/Gallery.js";
 import Home from "./pages/Home/Home.js";
+import Coupons from "./pages/Coupons/Coupons.js";
 import Leaderboard from "./pages/Leaderboard/Leaderboard.js";
 import LiveScore from "./pages/LiveScore/LiveScore.js";
 import OurTeam from "./pages/OurTeam/OurTeam.js";
@@ -31,6 +32,7 @@ function Pageroutes() {
       <Route path="/leaderboard" element={<Leaderboard />} />
       <Route path="/leaderboard/:collegename" element={<PointDetails />} />
       <Route path="/fixtures/:sportname" element={<Fixtures />} />
+      <Route path="/coupons" element={<Coupons />} />
       <Route path="/team" element={<OurTeam />} />
       <Route path="/gallery" element={<Gallery />} />
       <Route path="/setlivescore" element={<SetLiveScore />} />

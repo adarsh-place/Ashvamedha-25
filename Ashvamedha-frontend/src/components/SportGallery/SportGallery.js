@@ -201,7 +201,7 @@ function SportGallery() {
                     src={item.imgScr}
                     alt={item.imgText}
                     className="h-full w-full cursor-pointer object-cover object-center 
-                               transition-transform duration-500 ease-in-out
+                               transition-transform duration-500 ease-in-out hover:opacity-90
                                group-hover:scale-120" // .gallery-item:hover .image img
                   />
                 </div>
@@ -209,7 +209,7 @@ function SportGallery() {
                   - backdrop-filter -> backdrop-blur-[5px] backdrop-saturate-180
                   - Added `group-hover:opacity-100` (from your commented-out SCSS)
                 */}
-                <div
+                {/* <div
                   className="absolute left-1/2 top-1/2 z-[4] -translate-x-1/2 -translate-y-1/2 
                              pointer-events-none text-[25px] text-white opacity-0 
                              backdrop-blur-[5px] backdrop-saturate-180
@@ -217,7 +217,7 @@ function SportGallery() {
                              group-hover:opacity-100"
                 >
                   {item.imgText}
-                </div>
+                </div> */}
               </div>
             </div>
           );
