@@ -91,7 +91,7 @@ const sportsInfo = [
     location: "Online",
     date: "Nov 7th to 9th",
     link: "https://unstop.com/p/bgmi-e-sports-ashvamedha-iit-bhubaneswar-indian-institute-of-technology-bhubaneswar-1578396",
-    poc: "Sanskar Kosare (8208278646)",
+    poc: "Tanuj (7742310287)",
     rulebook: "https://drive.google.com/file/d/1CurvGYxRDieB-BbMgZFNAOib9IRDJmiI/view",
     theme: "dominate",
     nameid: "bgmi",
@@ -132,7 +132,7 @@ const sportsInfo = [
     nameid: "valorant",
     link: "https://forms.gle/Vyg1PeB8dMprT7PG7",
     location: "Online",
-    poc: "Tanuj (8533933245)", 
+    poc: "Arpit (8533933245)", 
     rulebook: "https://drive.google.com/file/d/1CurvGYxRDieB-BbMgZFNAOib9IRDJmiI/view",
   },
   {
