@@ -150,7 +150,7 @@ function Events() {
     },
     {
       id: 12,
-      sportName: "Kho Kho",
+      sportName: "Kho Kho (Boys)",
       imgUrl:
         "https://res.cloudinary.com/diu6ioiov/image/upload/v1761326325/Kho-Kho-Game-1280x720-11_ijbmyu.jpg",
       desc: "The echo of your sprint is the sound of dominance. Own the field.",
