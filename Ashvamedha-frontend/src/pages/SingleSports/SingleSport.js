@@ -85,7 +85,7 @@ const sportsInfo = [
   },
   {
     id: 8,
-    sportName: "BGMI",
+    sportName: "BGMI (Online)",
     imgUrl: "https://res.cloudinary.com/diu6ioiov/image/upload/v1761126385/bgmi_remkn8.png",
     desc: "Every drop brings a new chance; gear up and make your mark in the battlefield .",
     location: "Online",
@@ -124,7 +124,7 @@ const sportsInfo = [
   },
   {
     id: 10,
-    sportName: "Valorant",
+    sportName: "Valorant (Online)",
     imgUrl: "https://res.cloudinary.com/diu6ioiov/image/upload/v1761074269/IMG-20251021-WA0008_iotdla.jpg",
     desc: "Every round is a new beginning - lock in, aim true and dominate the arena.",
     date: "Nov 7th to 9th",
@@ -150,7 +150,7 @@ const sportsInfo = [
   },
   {
     id: 12,
-    sportName: "Kho Kho",
+    sportName: "Kho Kho (Boys)",
     imgUrl: "https://res.cloudinary.com/diu6ioiov/image/upload/v1761326325/Kho-Kho-Game-1280x720-11_ijbmyu.jpg",
     desc: "The echo of your sprint is the sound of dominance. Own the field.",
     date: "Nov 7th to 9th",

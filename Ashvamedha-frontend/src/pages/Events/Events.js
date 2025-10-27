@@ -106,7 +106,7 @@ function Events() {
     },
     {
       id: 8,
-      sportName: "BGMI",
+      sportName: "BGMI (Online)",
       imgUrl:
         "https://res.cloudinary.com/diu6ioiov/image/upload/v1761126385/bgmi_remkn8.png",
       desc: "Every drop brings a new chance; gear up and make your mark in the battlefield .",
@@ -128,7 +128,7 @@ function Events() {
     },
     {
       id: 10,
-      sportName: "Valorant",
+      sportName: "Valorant (Online)",
       imgUrl:
         "https://res.cloudinary.com/diu6ioiov/image/upload/v1761074269/IMG-20251021-WA0008_iotdla.jpg",
       desc: "Every round is a new beginning - lock in, aim true and dominate the arena.",
