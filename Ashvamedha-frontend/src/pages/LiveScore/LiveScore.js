@@ -106,7 +106,7 @@ function LiveScore() {
       <div className="flex flex-col justify-center items-center w-full mt-5 mb-10">
         {/* SPORT NAME + LIVE ICON */}
         {liveScore.length !== 0 && (
-          <div className="flex justify-center items-center h-[90px] mb-5 font-extrabold text-white uppercase">
+          <div className="mt-20 flex justify-center items-center h-[90px] mb-5 font-extrabold text-white uppercase">
             <div className="flex items-center text-[48px] sm:text-[40px] font-extrabold tracking-wider">
               <span>
                 <img
