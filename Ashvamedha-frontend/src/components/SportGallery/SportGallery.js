@@ -8,114 +8,130 @@ import { AiOutlineClose } from "react-icons/ai/index.esm.js";
 const galleryPhotos = [
   {
     cname: "col-span-3 row-span-2",
-    imgScr: "https://res.cloudinary.com/diu6ioiov/image/upload/v1761129307/qxgodwopz0prrfgkbovi_ezdw2b.jpg",
+    imgScr: "https://res.cloudinary.com/diu6ioiov/image/upload/v1761657211/Screenshot_2025-10-28_181731_hjntc6.png",
     imgText: "Nature",
   },
   {
     cname: "col-span-3 row-span-3",
-    imgScr: "https://res.cloudinary.com/diu6ioiov/image/upload/v1761129307/qxgodwopz0prrfgkbovi_ezdw2b.jpg",
+    imgScr: "https://res.cloudinary.com/diu6ioiov/image/upload/v1761657191/Scanned_20251024-1730-08_erk01p.jpg",
     imgText: "People",
   },
   {
     cname: "row-span-2", // Default col-span is 1
-    imgScr: "https://res.cloudinary.com/diu6ioiov/image/upload/v1761129307/qxgodwopz0prrfgkbovi_ezdw2b.jpg",
+    imgScr: "https://res.cloudinary.com/diu6ioiov/image/upload/v1761657213/Screenshot_2025-10-28_181602_rjkoph.png",
     imgText: "Sports",
   },
   {
     cname: "col-span-2", // Default row-span is 1
     isHeading: true,
-    text: "EVENTS",
+    text: "",
   },
   {
     cname: "col-span-4 row-span-1",
-    imgScr: "https://res.cloudinary.com/diu6ioiov/image/upload/v1761129307/qxgodwopz0prrfgkbovi_ezdw2b.jpg",
+    imgScr: "https://res.cloudinary.com/diu6ioiov/image/upload/v1761657246/DSC07397_k8ke2t.jpg",
     imgText: "Food",
   },
   {
     cname: "", // Defaults to col-span-1 row-span-1
-    imgScr: "https://res.cloudinary.com/diu6ioiov/image/upload/v1761129307/qxgodwopz0prrfgkbovi_ezdw2b.jpg",
+    imgScr: "https://res.cloudinary.com/diu6ioiov/image/upload/v1761657245/_DSC1197_lxdpdm.jpg",
     imgText: "Travel1",
   },
   {
     cname: "",
-    imgScr: "https://res.cloudinary.com/diu6ioiov/image/upload/v1761129307/qxgodwopz0prrfgkbovi_ezdw2b.jpg",
+    imgScr: "https://res.cloudinary.com/diu6ioiov/image/upload/v1761657242/_DSC1125_nmc4n6.jpg",
     imgText: "Travel2",
   },
   {
     cname: "row-span-2",
-    imgScr: "https://res.cloudinary.com/diu6ioiov/image/upload/v1761129307/qxgodwopz0prrfgkbovi_ezdw2b.jpg",
+    imgScr: "https://res.cloudinary.com/diu6ioiov/image/upload/v1761657204/Screenshot_2025-10-28_175834_rolh2w.png",
     imgText: "Art",
   },
   {
     cname: "row-span-2",
-    imgScr: "https://res.cloudinary.com/diu6ioiov/image/upload/v1761129307/qxgodwopz0prrfgkbovi_ezdw2b.jpg",
+    imgScr: "https://res.cloudinary.com/diu6ioiov/image/upload/v1761657234/DSC07381_fjwh7w.jpg",
     imgText: "Car1",
   },
   {
     cname: "col-span-2 row-span-3",
-    imgScr: "https://res.cloudinary.com/diu6ioiov/image/upload/v1761129307/qxgodwopz0prrfgkbovi_ezdw2b.jpg",
+    imgScr: "https://res.cloudinary.com/diu6ioiov/image/upload/v1761657232/_DSC1028_ivvt5y.jpg",
     imgText: "car3",
   },
   {
     cname: "col-span-1 row-span-3",
-    imgScr: "https://res.cloudinary.com/diu6ioiov/image/upload/v1761129307/qxgodwopz0prrfgkbovi_ezdw2b.jpg",
+    imgScr: "https://res.cloudinary.com/diu6ioiov/image/upload/v1761657217/Screenshot_2025-10-28_175701_plxqha.png",
     imgText: "Car4",
   },
   {
     cname: "col-span-3 row-span-2",
-    imgScr: "https://res.cloudinary.com/diu6ioiov/image/upload/v1761129307/qxgodwopz0prrfgkbovi_ezdw2b.jpg",
+    imgScr: "https://res.cloudinary.com/diu6ioiov/image/upload/v1761657225/_MG_6971_iuf0s6.jpg",
     imgText: "Car5",
   },
   {
     cname: "col-span-3 row-span-2",
-    imgScr: "https://res.cloudinary.com/diu6ioiov/image/upload/v1761129307/qxgodwopz0prrfgkbovi_ezdw2b.jpg",
+    imgScr:"https://res.cloudinary.com/diu6ioiov/image/upload/v1761129307/qxgodwopz0prrfgkbovi_ezdw2b.jpg",   
     imgText: "Car6",
   },
   {
     cname: "col-span-1 row-span-1",
-    imgScr: "https://res.cloudinary.com/diu6ioiov/image/upload/v1761129307/qxgodwopz0prrfgkbovi_ezdw2b.jpg",
+    imgScr: "https://res.cloudinary.com/diu6ioiov/image/upload/v1761657195/Screenshot_2025-10-28_181638_zf0w6g.png",
     imgText: "Car7",
   },
   {
     cname: "col-span-1 row-span-3",
-    imgScr: "https://res.cloudinary.com/diu6ioiov/image/upload/v1761129307/qxgodwopz0prrfgkbovi_ezdw2b.jpg",
+    imgScr: "https://res.cloudinary.com/diu6ioiov/image/upload/v1761657217/Screenshot_2025-10-28_175754_cn2cat.png",
     imgText: "Car8",
   },
   {
     cname: "col-span-2 row-span-2",
-    imgScr: "https://res.cloudinary.com/diu6ioiov/image/upload/v1761129307/qxgodwopz0prrfgkbovi_ezdw2b.jpg",
+    imgScr: "https://res.cloudinary.com/diu6ioiov/image/upload/v1761657240/_DSC1229_rmfppd.jpg",
     imgText: "Car10",
   },
   {
     cname: "col-span-3 row-span-2",
-    imgScr: "https://res.cloudinary.com/diu6ioiov/image/upload/v1761129307/qxgodwopz0prrfgkbovi_ezdw2b.jpg",
+    imgScr: "https://res.cloudinary.com/diu6ioiov/image/upload/v1761657207/Screenshot_2025-10-28_181652_j777fm.png",
     imgText: "Car11",
   },
   {
     cname: "col-span-2 row-span-1",
     isHeading: true,
-    text: "CELEBRATIONS",
+    text: "EVENTS",
   },
   {
     cname: "col-span-3 row-span-2",
-    imgScr: "https://res.cloudinary.com/diu6ioiov/image/upload/v1761129307/qxgodwopz0prrfgkbovi_ezdw2b.jpg",
+    imgScr: "https://res.cloudinary.com/diu6ioiov/image/upload/v1761657207/IMG-20251024-WA0019_odojpt.jpg",
     imgText: "Nature",
   },
   {
     cname: "col-span-3 row-span-3",
-    imgScr: "https://res.cloudinary.com/diu6ioiov/image/upload/v1761129307/qxgodwopz0prrfgkbovi_ezdw2b.jpg",
+    imgScr: "https://res.cloudinary.com/diu6ioiov/image/upload/v1761657209/IMG-20251024-WA0016_podjs2.jpg",
     imgText: "People",
   },
   {
     cname: "row-span-2 col-span-2",
-    imgScr: "https://res.cloudinary.com/diu6ioiov/image/upload/v1761129307/qxgodwopz0prrfgkbovi_ezdw2b.jpg",
+    imgScr: "https://res.cloudinary.com/diu6ioiov/image/upload/v1761657223/Screenshot_2025-10-28_175817_fnnn1c.png",
     imgText: "Sport1",
   },
   {
     cname: "row-span-1 col-span-1",
-    imgScr: "https://res.cloudinary.com/diu6ioiov/image/upload/v1761129307/qxgodwopz0prrfgkbovi_ezdw2b.jpg",
+    imgScr: "https://res.cloudinary.com/diu6ioiov/image/upload/v1761657203/Screenshot_2025-10-28_175910_rakdzo.png",
     imgText: "Sport1",
   },
+  {
+    cname: "row-span-1 col-span-4",
+    imgScr: "https://res.cloudinary.com/diu6ioiov/image/upload/v1761657196/IMG-20251024-WA0018_w6cbkv.jpg",
+    imgText: "Sport1",
+  },
+
+  // imgScr: "https://res.cloudinary.com/diu6ioiov/image/upload/v1761657203/Screenshot_2025-10-28_175910_rakdzo.png",
+  // imgScr: "https://res.cloudinary.com/diu6ioiov/image/upload/v1761657215/Scanned_20251024-1730-06_xngdvz.jpg",
+  // imgScr: "https://res.cloudinary.com/diu6ioiov/image/upload/v1761657220/Screenshot_2025-10-28_175806_wopxr3.png",
+  // imgScr: "https://res.cloudinary.com/diu6ioiov/image/upload/v1761657201/IMG-20251024-WA0010_lduvlq.jpg",
+  // imgScr: "https://res.cloudinary.com/diu6ioiov/image/upload/v1761657233/_DSC1012_wy4vid.jpg",
+  // imgScr: "https://res.cloudinary.com/diu6ioiov/image/upload/v1761657199/IMG-20251024-WA0014_op7xrl.jpg",
+  // imgScr: "https://res.cloudinary.com/diu6ioiov/image/upload/v1761657198/IMG-20251024-WA0009_z1fggp.jpg",
+  // imgScr: "https://res.cloudinary.com/diu6ioiov/image/upload/v1761657192/Screenshot_2025-10-28_175842_anohbb.png",
+  // imgScr: "https://res.cloudinary.com/diu6ioiov/image/upload/v1761657190/Screenshot_2025-10-28_175855_ehe3wa.png",
+  // imgScr: "https://res.cloudinary.com/diu6ioiov/image/upload/v1761657189/Screenshot_2025-10-28_180033_xjhecs.png",
 ];
 
 function SportGallery() {
@@ -145,7 +161,7 @@ function SportGallery() {
         - margin-bottom: 10px -> mb-2.5
         - @media (max-width: 500px) { grid-template-columns: ... } -> max-[500px]:grid-cols-1
       */}
-      <div className="grid grid-cols-6 auto-rows-[100px] gap-2.5 grid-flow-dense mb-2.5 max-[500px]:grid-cols-1">
+  <div className="grid grid-cols-6 auto-rows-[135px] gap-2.5 grid-flow-dense mb-2.5 max-[500px]:grid-cols-1 max-[500px]:auto-rows-[220px]">
         
         {/* This is the translation of .model
           - Combined .model and .model.open logic using conditional classnames
@@ -155,7 +171,6 @@ function SportGallery() {
           className={`
             fixed top-0 left-0 z-[999] flex h-full w-full items-center justify-center
             overflow-hidden bg-black
-            transition-[opacity,visibility] duration-400 ease
             transition-transform duration-500 ease-in-out
             ${model ? "visible scale-100 opacity-100" : "invisible scale-0 opacity-0"}
           `}

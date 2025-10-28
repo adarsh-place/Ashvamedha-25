@@ -21,10 +21,13 @@ import merch from "../../assests/aboutusassets/merch.png";
 function AboutUs() {
   // Array of images for the swiper
   const swiperImages = [
-    { src: "https://gymkhana.iitbbs.ac.in/assets/img/sports/badminton(3).jpg", alt: "Badminton" },
-    { src: "https://gymkhana.iitbbs.ac.in/assets/img/sports/tt3.jpg", alt: "Table Tennis" },
-    { src: "https://gymkhana.iitbbs.ac.in/assets/img/sports/volleyball%20(5).jpg", alt: "Volleyball" },
-    { src: "https://www.campusvarta.com/uploads/2024/11/04/ashvamedha-21730720113.JPG", alt: "Ashvamedha Fest" },
+    { src: "https://res.cloudinary.com/diu6ioiov/image/upload/v1761659357/ashvamedha-21730720113_yimz5g.jpg", alt: "Ashvamedha Fest" },
+    { src: "https://res.cloudinary.com/diu6ioiov/image/upload/v1761659405/isasc0jcybb01tbf8bya_faolcq.jpg", alt: "Ashvamedha Fest" },
+    { src: "https://res.cloudinary.com/diu6ioiov/image/upload/v1761657220/Screenshot_2025-10-28_175806_wopxr3.png", alt: "Ashvamedha Fest" },
+    { src: "https://res.cloudinary.com/diu6ioiov/image/upload/v1761657234/DSC07381_fjwh7w.jpg", alt: "Ashvamedha Fest" },
+    { src: "https://res.cloudinary.com/diu6ioiov/image/upload/v1761659331/badminton_3_hepw87.jpg", alt: "Ashvamedha Fest" },
+    { src: "https://res.cloudinary.com/diu6ioiov/image/upload/v1761659472/v2ghczhivwgsxts0inzg_lywfms.jpg", alt: "Ashvamedha Fest" },
+    { src: "https://res.cloudinary.com/diu6ioiov/image/upload/v1761657190/Screenshot_2025-10-28_175855_ehe3wa.png", alt: "Ashvamedha Fest" },
   ];
 
   return (

@@ -19,7 +19,11 @@ function Hero() {
     // ---
     <div
       className="mt-0 hero relative flex min-h-screen w-full flex-col items-center justify-center overflow-hidden text-white font-body bg-cover bg-center bg-no-repeat"
-      style={{ backgroundImage: `url('https://res.cloudinary.com/backend-project-chai-aur-code/image/upload/v1728626960/ashvamedha/ashvamedha2023/rvuyd0jdnuyi8p9ybsj3.jpg')` }}
+      // style={{ backgroundImage: `url('https://res.cloudinary.com/diu6ioiov/image/upload/v1761659477/bvhyx0cakqhzx9jflwwb_oyrjcd.jpg')` }}
+      // style={{ backgroundImage: `url('https://res.cloudinary.com/diu6ioiov/image/upload/v1761657192/Screenshot_2025-10-28_175842_anohbb.png')` }}
+      // style={{ backgroundImage: `url('https://res.cloudinary.com/diu6ioiov/image/upload/v1761657191/Scanned_20251024-1730-08_erk01p.jpg')` }}
+      // style={{ backgroundImage: `url('https://res.cloudinary.com/diu6ioiov/image/upload/v1761129307/qxgodwopz0prrfgkbovi_ezdw2b.jpg')` }}
+      style={{ backgroundImage: `url('https://res.cloudinary.com/diu6ioiov/image/upload/v1761659374/rvuyd0jdnuyi8p9ybsj3_dnh5ap.jpg')` }}
     >
       {/* Background Glows (they are z-0) */}
       <div className="absolute -top-40 -left-40 z-0 h-96 w-96 rounded-full  blur-3xl"></div>

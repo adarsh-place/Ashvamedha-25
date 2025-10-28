@@ -12,19 +12,17 @@ function HomeGallery() {
 
   const columns = [
     [
-      "https://res.cloudinary.com/backend-project-chai-aur-code/image/upload/v1728626960/ashvamedha/ashvamedha2023/rvuyd0jdnuyi8p9ybsj3.jpg",
-      "https://res.cloudinary.com/backend-project-chai-aur-code/image/upload/v1728626960/ashvamedha/ashvamedha2023/qxgodwopz0prrfgkbovi.jpg",
-      "https://res.cloudinary.com/backend-project-chai-aur-code/image/upload/v1728626960/ashvamedha/ashvamedha2023/v2ghczhivwgsxts0inzg.jpg",
+      "https://res.cloudinary.com/diu6ioiov/image/upload/v1761657191/Scanned_20251024-1730-08_erk01p.jpg",
+      "https://res.cloudinary.com/diu6ioiov/image/upload/v1761657225/_MG_6971_iuf0s6.jpg",
     ],
     [
-      "https://res.cloudinary.com/backend-project-chai-aur-code/image/upload/v1728626960/ashvamedha/ashvamedha2023/isasc0jcybb01tbf8bya.jpg",
-      "https://res.cloudinary.com/backend-project-chai-aur-code/image/upload/v1728626958/ashvamedha/ashvamedha2023/cg6zbltjoanvntv07h9w.jpg",
-      "https://res.cloudinary.com/backend-project-chai-aur-code/image/upload/v1728629921/ashvamedha/ashvamedha2023/bvhyx0cakqhzx9jflwwb.jpg",
+      "https://res.cloudinary.com/diu6ioiov/image/upload/v1761657217/Screenshot_2025-10-28_175754_cn2cat.png",
+      "https://res.cloudinary.com/diu6ioiov/image/upload/v1761659470/cg6zbltjoanvntv07h9w_jqenz4.jpg",
+      "https://res.cloudinary.com/diu6ioiov/image/upload/v1761657213/Screenshot_2025-10-28_181602_rjkoph.png",
     ],
     [
-      "https://res.cloudinary.com/backend-project-chai-aur-code/image/upload/v1728626959/ashvamedha/ashvamedha2023/e14cba6woh7gbxi9ssho.jpg",
-      "https://res.cloudinary.com/backend-project-chai-aur-code/image/upload/v1728626961/ashvamedha/ashvamedha2023/xmpndasxnoiyo1ethn09.jpg",
-      "https://res.cloudinary.com/backend-project-chai-aur-code/image/upload/v1728626958/ashvamedha/ashvamedha2023/arhy2bwl1t47zejc0rz6.jpg",
+      "https://res.cloudinary.com/diu6ioiov/image/upload/v1761657204/Screenshot_2025-10-28_175834_rolh2w.png",
+      "https://res.cloudinary.com/diu6ioiov/image/upload/v1761659439/e14cba6woh7gbxi9ssho_nphaqd.jpg",
     ],
   ];
 
