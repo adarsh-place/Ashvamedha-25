@@ -86,7 +86,7 @@ function Events() {
       id: 6,
       sportName: "Basketball",
       imgUrl:
-        "https://res.cloudinary.com/backend-project-chai-aur-code/image/upload/v1727729822/ashvamedha/events/rfmuljtun5pabxcdrlou.jpg",
+        "https://res.cloudinary.com/diu6ioiov/image/upload/v1761655752/WhatsApp_Image_2025-10-25_at_23.09.07_8ce484cd_k0ryxt.jpg",
       desc: "Basketball is like photography. If you don't focus, all you have is the negative.",
       date: "26th and 27th October",
       theme: "dominate",

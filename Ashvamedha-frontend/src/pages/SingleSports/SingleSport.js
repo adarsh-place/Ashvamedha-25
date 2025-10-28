@@ -60,9 +60,9 @@ const sportsInfo = [
   {
     id: 6,
     sportName: "Basketball",
-    imgUrl: "https://res.cloudinary.com/backend-project-chai-aur-code/image/upload/v1727729822/ashvamedha/events/rfmuljtun5pabxcdrlou.jpg",
+    imgUrl: "https://res.cloudinary.com/diu6ioiov/image/upload/v1761655752/WhatsApp_Image_2025-10-25_at_23.09.07_8ce484cd_k0ryxt.jpg",
     desc: "Basketball is like photography. If you don't focus, all you have is the negative.",
-    date: "Nov 7th to 9th",
+    date: "Nov 7th to 9th", 
     location: "Basketball Court 1 and 2",
     link: "https://forms.gle/MphFhZ6brpEeyWno7",
     rulebook: "https://drive.google.com/file/d/1CurvGYxRDieB-BbMgZFNAOib9IRDJmiI/view",
