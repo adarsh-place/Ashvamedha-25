@@ -63,7 +63,7 @@ function Footer() {
         {/* Center Logo */}
         <div className="flex justify-center items-center">
           <img
-            src="ashvamedhaLogo.png"
+            src="https://res.cloudinary.com/diu6ioiov/image/upload/v1761653685/ashvamedhaLogo_tz4kjc.png"
             alt="Ashvamedha Logo"
             className="w-36 h-36 object-contain hover:scale-110 transition-transform duration-500"
           />

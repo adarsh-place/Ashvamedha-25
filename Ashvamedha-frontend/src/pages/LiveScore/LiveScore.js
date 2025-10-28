@@ -4,7 +4,7 @@ import Navbar from "../../components/Navbar/Navbar.js";
 import ScoreCard from "../../components/ScoreCard/ScoreCard.js";
 import axios from "axios";
 import { server } from "../../constants.js";
-import live from "../../assests/demoPhotos/live.png";
+import live from "../../assests/demoPhotos/live.png"; 
 import { useParams } from "react-router-dom";
 import { setLoading } from "../../redux/appSlice.js";
 import { useDispatch } from "react-redux";
@@ -110,7 +110,7 @@ function LiveScore() {
             <div className="flex items-center text-[48px] sm:text-[40px] font-extrabold tracking-wider">
               <span>
                 <img
-                  src="../../assests/demoPhotos/live.png"
+                  src="https://res.cloudinary.com/diu6ioiov/image/upload/v1761653760/live_pkypiq.png"
                   alt="live"
                   className="w-20 animate-pulse opacity-90"
                 />
