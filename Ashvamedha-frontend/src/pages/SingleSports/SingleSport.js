@@ -230,7 +230,7 @@ function SingleSport() {
   return (
     <>
       <Navbar />
-      <div className="mt-16 single-sport-page bg-gray-950 text-white min-h-screen">
+      <div className="mt-16 single-sport-page  text-white min-h-screen">
         <div className="sportspage flex flex-col items-center w-full max-w-6xl mx-auto px-4 py-8 lg:py-16">
           
           <div className="cards w-full flex flex-col lg:flex-row items-center justify-center gap-8 lg:gap-12">
