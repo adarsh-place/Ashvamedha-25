@@ -132,7 +132,7 @@ function ShowAllEvents() {
       id: 12,
       sportName: "Kho Kho (Boys)",
       imgUrl:
-        "https://res.cloudinary.com/diu6ioiov/image/upload/v1761326325/Kho-Kho-Game-1280x720-11_ijbmyu.jpg",
+        "https://res.cloudinary.com/diu6ioiov/image/upload/v1761834981/khokho_d6amz4.jpg",
       desc: "The echo of your sprint is the sound of dominance. Own the field.",
       date: "26th and 27th October",
       theme: "dominate",
