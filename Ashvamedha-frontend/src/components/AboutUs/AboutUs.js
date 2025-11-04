@@ -13,7 +13,7 @@ import "swiper/css/navigation";
 
 // --- Your Component Imports ---
 import CounterUpPage from "./CounterUpPage.js";
-import merch from "../../assests/aboutusassets/merch.png";
+import merch from "../../assests/aboutusassets/merch2.png";
 // --- Add more images here for the swiper ---
 // import image1 from "../../assests/aboutusassets/image1.png";
 // import image2 from "../../assests/aboutusassets/image2.png";
@@ -102,19 +102,16 @@ function AboutUs() {
 
         {/* === MERCHANDISE SECTION === */}
         <div className="text-center">
-          {/* FONT CHANGE: Added font-montserrat */}
           <h1 className="text-4xl lg:text-5xl font-bold mb-8 font-montserrat">
             <span className="text-crimson-red">OUR </span>
             <span className="text-white">MERCHANDISE</span>
           </h1>
           <div className="flex flex-col items-center gap-8">
-            {/* Merch Image */}
             <img 
               src={merch} 
               alt="T-shirt" 
               className="w-full max-w-lg rounded-lg shadow-lg" 
             />
-            {/* Merch Button Link */}
             {/* <Link
               target="_blank"
               to="https://forms.gle/iap77hortfY7i6jf8"

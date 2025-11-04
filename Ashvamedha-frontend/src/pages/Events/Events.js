@@ -106,14 +106,14 @@ function Events() {
     },
     {
       id: 8,
-      sportName: "BGMI (Online)",
+      sportName: "BGMI (Offline)",
       imgUrl:
         "https://res.cloudinary.com/diu6ioiov/image/upload/v1761126385/bgmi_remkn8.png",
       desc: "Every drop brings a new chance; gear up and make your mark in the battlefield .",
       date: "26th and 27th October",
       theme: "dominate",
       nameid: "bgmi",
-      link: "https://unstop.com/p/bgmi-e-sports-ashvamedha-iit-bhubaneswar-indian-institute-of-technology-bhubaneswar-1578396",
+      link: "https://forms.gle/zh22rZhaAG2cEVFB9",
     },
     {
       id: 9,
@@ -128,14 +128,14 @@ function Events() {
     },
     {
       id: 10,
-      sportName: "Valorant (Online)",
+      sportName: "Real Cricket 24 (Offline)",
       imgUrl:
-        "https://res.cloudinary.com/diu6ioiov/image/upload/v1761074269/IMG-20251021-WA0008_iotdla.jpg",
-      desc: "Every round is a new beginning - lock in, aim true and dominate the arena.",
+        "https://res.cloudinary.com/diu6ioiov/image/upload/v1762246232/rc_nlfn9a.png",
+      desc: "The field may be digital, but the glory is real — play bold, play to win",
       date: "26th and 27th October",
       theme: "dominate",
-      nameid: "valorant",
-      link: "https://forms.gle/Vyg1PeB8dMprT7PG7",
+      nameid: "rc",
+      link: "https://forms.gle/1CvCFU829ykmCYqo9",
     },
     {
       id: 11,
