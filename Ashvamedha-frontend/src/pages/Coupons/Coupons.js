@@ -5,16 +5,9 @@ import Footer from "../../components/Footer/Footer";
 const coupons = [
   {
     id: 1,
-    title: "Visitor Pass - Single Day",
+    title: "Visitor Pass",
     price: "₹150",
-    desc: "Access to all open events and food stalls for one day.",
-    btnText: "Buy Single Day",
-  },
-  {
-    id: 2,
-    title: "Visitor Pass - Full Fest",
-    price: "₹250",
-    desc: "Three-day access, priority entry and 10% discount on merchandise.",
+    desc: "Access to all open events and food stalls for three days.",
     btnText: "Buy Full Fest",
   },
 ];
@@ -27,17 +20,13 @@ export default function Coupons() {
       <main className="max-w-[1100px] mx-auto mt-28 px-4 text-center min-h-screen flex flex-col justify-start">
         <h2 className="flex justify-center items-center text-4xl md:text-5xl font-bold tracking-wide uppercase text-center md:text-[3.5rem]">
           <span className="text-crimson-red mr-2">Visitor</span>
-          <span className="text-white">Coupons</span>
+          <span className="text-white">Coupon</span>
         </h2>
 
-        <p className="text-gray-300 mb-7 mt-5 text-2xl">
-          Choose a pass to enjoy the fest.
-        </p>
-
-        <div className="mt-16 grid grid-cols-1 md:grid-cols-2 gap-6 items-stretch">
+        <div className="mt-16 flex justify-center">
           {coupons.map((c) => (
             <article
-              className="bg-[#05080C]/70 border border-white/4 rounded-lg p-7 flex flex-col justify-between text-white"
+              className="bg-[#05080C]/70 border border-white/4 rounded-lg p-7 flex flex-col justify-between text-white w-full max-w-[500px]"
               key={c.id}
             >
               <div className="flex justify-between items-center mb-3">
