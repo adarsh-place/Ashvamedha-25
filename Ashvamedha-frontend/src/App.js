@@ -32,7 +32,7 @@ function Pageroutes() {
       <Route path="/leaderboard" element={<Leaderboard />} />
       <Route path="/leaderboard/:collegename" element={<PointDetails />} />
       <Route path="/fixtures/:sportname" element={<Fixtures />} />
-      <Route path="/coupons" element={<Coupons />} />
+      {/* <Route path="/coupons" element={<Coupons />} /> */}
       <Route path="/team" element={<OurTeam />} />
       <Route path="/gallery" element={<Gallery />} />
       <Route path="/setlivescore" element={<SetLiveScore />} />

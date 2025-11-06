@@ -29,7 +29,7 @@ function HomeGallery() {
   return (
     <div className="glimpses text-white py-10 flex flex-col items-center justify-center">
       {/* Title */}
-      <div className="title text-center mt-5" data-aos="fade-up">
+      <div className="title text-center mt-5">
         <h1 className="text-5xl sm:text-6xl font-bold mb-6">
           <span className="text-crimson-red">GLIMP</span>
           <span className="text-white">SES</span>

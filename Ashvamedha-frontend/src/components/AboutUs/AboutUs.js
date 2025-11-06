@@ -101,7 +101,7 @@ function AboutUs() {
         </div>
 
         {/* === MERCHANDISE SECTION === */}
-        <div className="text-center">
+        {/* <div className="text-center">
           <h1 className="text-4xl lg:text-5xl font-bold mb-8 font-montserrat">
             <span className="text-crimson-red">OUR </span>
             <span className="text-white">MERCHANDISE</span>
@@ -112,16 +112,16 @@ function AboutUs() {
               alt="T-shirt" 
               className="w-full max-w-lg rounded-lg shadow-lg" 
             />
-            {/* <Link
+            <Link
               target="_blank"
               to="https://forms.gle/iap77hortfY7i6jf8"
               // FONT CHANGE: Added font-montserrat (optional, but good for consistency)
               className="inline-block text-crimson-red border-2 border-crimson-red px-8 py-3 rounded-lg text-xl font-semibold transition-all duration-300 hover:bg-crimson-red hover:text-white font-montserrat"
             >
               GET YO<span className="text-white">UR MERCH!!</span>
-            </Link> */}
+            </Link>
           </div>
-        </div>
+        </div> */}
 
       </div>
     </div>
