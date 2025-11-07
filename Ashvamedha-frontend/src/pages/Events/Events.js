@@ -212,11 +212,11 @@ function Events() {
               key={index}
               className="relative w-72 h-96 md:w-80 md:h-[420px] rounded-2xl overflow-hidden bg-white/5 shadow-2xl cursor-pointer transition-transform duration-300 hover:scale-105 hover:shadow-[0_20px_40px_rgba(0,0,0,0.6)]"
               // **** ADDED THIS ONCLICK HANDLER ****
-              onClick={() => {
-                window.scrollTo(0, 0);
-                // Navigates to /events/1, /events/2, etc.
-                navigate(`/events/${item.id}`);
-              }}
+              // onClick={() => {
+              //   window.scrollTo(0, 0);
+              //   // Navigates to /events/1, /events/2, etc.
+              //   navigate(`/events/${item.id}`);
+              // }}
             >
               <img
                 src={item.imgUrl}
@@ -234,24 +234,39 @@ function Events() {
                 <p className="text-sm md:text-base mb-3 opacity-90">
                   {item.desc}
                 </p>
-                <div className="flex justify-center items-center gap-3">
+                {!["bgmi", "gym", "rc", "bodybuilding"].includes(item.nameid) ? <div className="flex justify-center items-center gap-3">
                   {/* ... (Your commented-out buttons) ... */}
                   <button
-                    className={`border-2 border-current rounded-lg px-4 py-2 font-semibold text-sm md:text-base transition-all duration-300 ${
-                      item.theme === "dream"
-                        ? "text-amber-500 hover:bg-amber-500 hover:text-white hover:shadow-[0_0_10px_#ff6d02]"
-                        : "text-red-400 hover:bg-red-400 hover:text-white hover:shadow-[0_0_10px_#36d8fe]"
-                    }`}
                     // **** MODIFIED THIS ONCLICK HANDLER ****
                     onClick={(e) => {
-                      // Stop the click from bubbling up to the SwiperSlide
-                      e.stopPropagation();
-                      window.open(item.link, "_blank");
+                      // Stop the click from bubbling up to the parent div
+                      window.scrollTo(0, 0);
+                      navigate(`/fixtures/${item.nameid.toLowerCase()}`);
                     }}
+                    className={`px-4 py-2 border-2 rounded-lg font-semibold transition-all duration-300 ${
+                      item.theme === "dream"
+                        ? "text-amber-500 border-amber-500 hover:bg-amber-500 hover:text-white"
+                        : "text-red-400 border-red-400 hover:bg-red-400 hover:text-white"
+                    }`}
                   >
-                    Register
+                    Fixtures
                   </button>
-                </div>
+                  <button
+                    // **** MODIFIED THIS ONCLICK HANDLER ****
+                    onClick={(e) => {
+                      // Stop the click from bubbling up to the parent div
+                      window.scrollTo(0, 0);
+                      navigate(`/livescore/${item.nameid.toLowerCase()}`);
+                    }}
+                    className={`px-4 py-2 border-2 rounded-lg font-semibold transition-all duration-300 ${
+                      item.theme === "dream"
+                        ? "text-amber-500 border-amber-500 hover:bg-amber-500 hover:text-white"
+                        : "text-red-400 border-red-400 hover:bg-red-400 hover:text-white"
+                    }`}
+                  >
+                    Live Score
+                  </button>
+                </div> : <></>}
               </div>
             </SwiperSlide>
           ))}

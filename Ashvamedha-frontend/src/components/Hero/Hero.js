@@ -87,8 +87,8 @@ function Hero() {
                   navigate("/events");
                 }}
               >
-                {/* LIVE SCORES & FIXTURES */}
-                REGISTER YOUR TEAM
+                LIVE SCORES & FIXTURES
+                {/* REGISTER YOUR TEAM */}
               </button>
             </div>
           </div>

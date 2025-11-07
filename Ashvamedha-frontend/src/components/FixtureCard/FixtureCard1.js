@@ -27,7 +27,7 @@ function FixtureCard1(props) {
               <div className="img">
                 <img src={getCollegeLogo(props.match.team1?.toLowerCase())} alt="" />
               </div>
-              <div className="name">{props.match.team1}</div>
+              <div className="name">{props.match.team1.toUpperCase()}</div>
             </div>
             <div className="vs">
               <img src={vs} alt="" />
@@ -36,7 +36,7 @@ function FixtureCard1(props) {
               <div className="img">
                 <img src={getCollegeLogo(props.match.team2.toLowerCase())} alt="" />
               </div>
-              <div className="name">{props.match.team2}</div>
+              <div className="name">{props.match.team2.toUpperCase()}</div>
 
             </div>
           </div>

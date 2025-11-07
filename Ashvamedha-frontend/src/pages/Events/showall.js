@@ -154,14 +154,15 @@ function ShowAllEvents() {
           {sportsInfo.map((item, index) => (
             <div
               key={item.id}
-              className={`mt-8 flex flex-col md:flex-row items-center gap-6 md:gap-12 transition-transform transform hover:scale-[1.02] cursor-pointer ${ // Added hover and cursor
+              className={`mt-8 flex flex-col md:flex-row items-center gap-6 md:gap-12 transition-transform transform hover:scale-[1.02] cursor-pointer ${
+                // Added hover and cursor
                 index % 2 === 1 ? "md:flex-row-reverse" : ""
               }`}
               // **** ADDED THIS ONCLICK HANDLER ****
-              onClick={() => {
-                window.scrollTo(0, 0);
-                navigate(`/events/${item.id}`);
-              }}
+              // onClick={() => {
+              //   window.scrollTo(0, 0);
+              //   navigate(`/events/${item.id}`);
+              // }}
             >
               {/* Image */}
               <div className="w-full md:w-1/2 flex justify-center">
@@ -184,14 +185,14 @@ function ShowAllEvents() {
                 <p className="text-base md:text-lg mb-4 max-w-md">
                   {item.desc}
                 </p>
-                <div className="flex justify-center md:justify-start gap-4 mt-2">
+                {!["bgmi", "gym", "rc", "bodybuilding"].includes(item.nameid) ? <div className="flex justify-center md:justify-start gap-4 mt-2">
                   {/* ... (Your commented-out buttons) ... */}
                   <button
                     // **** MODIFIED THIS ONCLICK HANDLER ****
                     onClick={(e) => {
                       // Stop the click from bubbling up to the parent div
-                      e.stopPropagation();
-                      window.open(item.link, "_blank");
+                      window.scrollTo(0, 0);
+                      navigate(`/fixtures/${item.nameid.toLowerCase()}`);
                     }}
                     className={`px-4 py-2 border-2 rounded-lg font-semibold transition-all duration-300 ${
                       item.theme === "dream"
@@ -199,9 +200,24 @@ function ShowAllEvents() {
                         : "text-red-400 border-red-400 hover:bg-red-400 hover:text-white"
                     }`}
                   >
-                    Register
+                    Fixtures
                   </button>
-                </div>
+                  <button
+                    // **** MODIFIED THIS ONCLICK HANDLER ****
+                    onClick={(e) => {
+                      // Stop the click from bubbling up to the parent div
+                      window.scrollTo(0, 0);
+                      navigate(`/livescore/${item.nameid.toLowerCase()}`);
+                    }}
+                    className={`px-4 py-2 border-2 rounded-lg font-semibold transition-all duration-300 ${
+                      item.theme === "dream"
+                        ? "text-amber-500 border-amber-500 hover:bg-amber-500 hover:text-white"
+                        : "text-red-400 border-red-400 hover:bg-red-400 hover:text-white"
+                    }`}
+                  >
+                    Live Score
+                  </button>
+                </div> : <></>}
               </div>
             </div>
           ))}
