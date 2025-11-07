@@ -56,7 +56,11 @@ function Leaderboard() {
           </div>
           <div className="content">
             {collegeScore.map((item, index) => (
-              <CollegeWrapper collegeInfo={item} key={index} serialNo={index} />
+              <>
+                {item[0] > 0 ? 
+               <CollegeWrapper collegeInfo={item} key={index} serialNo={index} />
+                :<></>}
+              </>
             ))}
           </div>
         </div>
