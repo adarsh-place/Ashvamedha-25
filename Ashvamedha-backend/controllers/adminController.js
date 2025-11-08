@@ -42,7 +42,7 @@ const login = async (req, res) => {
     }
 
     const sport = email.split(".")[0].toLowerCase();
-    const sportList = ["football","badminton","chess","tabletennis","gym","bgmi","volleyball","lawntennis","basketball","athletics"];
+    const sportList = ["football","badminton","chess","tabletennis","gym","bgmi","volleyball","lawntennis","basketball","athletics","khokho"];
 
     if (!sportList.includes(sport)){
       return res.send(error(409,"Email format is invalid!!"));

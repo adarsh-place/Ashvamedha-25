@@ -205,6 +205,10 @@ export const sportList = [
   {
     name :"bgmi",
     email : "bgmi.admin@ashvamedha.in",
+  },
+  {
+    name :"khokho",
+    email : "khokho.admin@ashvamedha.in",
   }
 ]
 
