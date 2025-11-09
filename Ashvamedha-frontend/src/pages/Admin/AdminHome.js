@@ -65,12 +65,12 @@ function AdminHome() {
                     Update Live Score
                   </Link>
 
-                  <Link
+                  {/* <Link
                     to="/updatepointstable"
                     className="bg-gradient-to-r from-[#ff4500] to-[#ff6347] text-white font-bold py-2.5 px-5 rounded-lg text-center shadow-lg shadow-[#ff4500]/40 hover:shadow-[#ffae42]/60 hover:scale-105 transition-all duration-300 w-48"
                   >
                     Set Points Table Score
-                  </Link>
+                  </Link> */}
                 </div>
 
                 <button
